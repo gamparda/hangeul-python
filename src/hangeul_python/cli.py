@@ -78,12 +78,15 @@ def main(argv=None) -> int:
                     return 1
                 print("번역 사전 검증 통과")
             elif args.json:
-                print(json.dumps({"core": runtime.catalog.core, "api": runtime.catalog.api},
+                print(json.dumps({"core": runtime.catalog.core, "api": runtime.catalog.api,
+                                  "identifiers": runtime.catalog.identifiers},
                                  ensure_ascii=False, indent=2))
             else:
                 for section in ("keywords", "soft_keywords", "builtins", "exceptions", "special_names"):
                     for english, korean in runtime.catalog.core[section].items():
                         print(f"{english:32} {korean}")
+                for english, korean in runtime.catalog.identifiers.items():
+                    print(f"{english:32} {korean}")
             return 0
         if command in {"repl", "대화"}:
             with import_context(runtime):

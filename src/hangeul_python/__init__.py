@@ -5,7 +5,7 @@ from .compiler import compile_source, translate_source
 from .importer import import_context
 from .runtime import Runtime
 
-__version__ = "0.1.0a1"
+__version__ = "0.1.0a2"
 __all__ = ["Catalog", "Runtime", "compile_source", "translate_source", "run_source"]
 
 

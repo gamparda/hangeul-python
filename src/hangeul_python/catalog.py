@@ -5,6 +5,7 @@ from __future__ import annotations
 import builtins
 import json
 import keyword
+import unicodedata
 from copy import deepcopy
 from importlib.resources import files
 from pathlib import Path
@@ -29,6 +30,7 @@ class Catalog:
         self.core = read_json(root.joinpath("core.json").read_text(encoding="utf-8"))
         self.api = read_json(root.joinpath("api.json").read_text(encoding="utf-8"))
         self.overrides = {"schema_version": 1}
+        self.identifiers = {}
         # Reflected and in-place binary operations follow the same naming rule.
         specials = self.core["special_names"]
         for op in ("add", "sub", "mul", "matmul", "truediv", "floordiv", "mod", "divmod",
@@ -67,6 +69,32 @@ class Catalog:
             if len(mapping.values()) != len(set(mapping.values())):
                 raise ValueError("한 함수 안에서 인자 번역어가 중복되었습니다")
             self.keyword_aliases.update(mapping.values())
+        reserved = set(self.replacements)
+        reserved.update(self.core["builtins"].values())
+        reserved.update(self.core["exceptions"].values())
+        self.identifier_api_aliases = {}
+        def register_alias(original, korean):
+            self.identifier_api_aliases.setdefault(korean, set()).add(original)
+        for korean, original in self.module_aliases.items():
+            register_alias(original, korean)
+        for group in (self.api["types"], self.api["modules"]):
+            for data in group.values():
+                for original, korean in data.get("members", {}).items():
+                    register_alias(original, korean)
+        for mapping in mappings:
+            for original, korean in mapping.items():
+                register_alias(original, korean)
+        for original, korean in self.identifiers.items():
+            for name in (original, korean):
+                if (not isinstance(name, str) or not name.isidentifier()
+                        or keyword.iskeyword(name) or name.startswith("__han_")
+                        or unicodedata.normalize("NFKC", name) != name):
+                    raise ValueError(f"유효하지 않은 식별자 번역: {original!r}: {korean!r}")
+            meanings = self.identifier_api_aliases.get(korean, set())
+            if korean in reserved or meanings - {original}:
+                raise ValueError(f"식별자 번역어 충돌: {korean}")
+            reserved.add(korean)
+            self.replacements[korean] = original
 
     def canonical_module(self, name: str) -> str:
         for alias in sorted(self.module_aliases, key=len, reverse=True):
@@ -99,21 +127,27 @@ class Catalog:
     def apply_profile(self, extra: dict):
         if extra.get("schema_version") != 1:
             raise ValueError("지원하지 않는 번역 사전 버전입니다")
+        for section in ("modules", "types", "builtin_keywords", "identifiers"):
+            if not isinstance(extra.get(section, {}), dict):
+                raise ValueError(f"번역 사전 항목은 객체여야 합니다: {section}")
         previous = self.api
+        previous_identifiers = self.identifiers
         candidate = deepcopy(previous)
         for section in ("modules", "types", "builtin_keywords"):
             for name, data in extra.get(section, {}).items():
                 candidate[section][name] = data
         self.api = candidate
+        self.identifiers = {**previous_identifiers, **extra.get("identifiers", {})}
         try:
             self.refresh()
             if problems := self.validate():
                 raise ValueError("; ".join(problems))
         except Exception:
             self.api = previous
+            self.identifiers = previous_identifiers
             self.refresh()
             raise
-        for section in ("modules", "types", "builtin_keywords"):
+        for section in ("modules", "types", "builtin_keywords", "identifiers"):
             self.overrides.setdefault(section, {}).update(extra.get(section, {}))
 
     def validate(self) -> list[str]:
