@@ -1,0 +1,2044 @@
+{
+  "schema_version": 1,
+  "builtin_keywords": {
+    "print": {
+      "sep": "구분",
+      "end": "끝",
+      "file": "파일",
+      "flush": "즉시"
+    },
+    "sorted": {
+      "key": "기준",
+      "reverse": "역순"
+    },
+    "min": {
+      "key": "기준",
+      "default": "기본값"
+    },
+    "max": {
+      "key": "기준",
+      "default": "기본값"
+    },
+    "sum": {
+      "start": "시작"
+    },
+    "enumerate": {
+      "start": "시작"
+    },
+    "zip": {
+      "strict": "엄격"
+    },
+    "round": {
+      "ndigits": "자릿수"
+    },
+    "pow": {
+      "base": "밑",
+      "exp": "지수",
+      "mod": "나머지기준"
+    },
+    "int": {
+      "base": "진법"
+    },
+    "str": {
+      "encoding": "인코딩",
+      "errors": "오류처리"
+    },
+    "bytes": {
+      "encoding": "인코딩",
+      "errors": "오류처리"
+    },
+    "bytearray": {
+      "encoding": "인코딩",
+      "errors": "오류처리"
+    },
+    "open": {
+      "file": "파일",
+      "mode": "모드",
+      "buffering": "버퍼링",
+      "encoding": "인코딩",
+      "errors": "오류처리",
+      "newline": "줄바꿈",
+      "closefd": "서술자닫기",
+      "opener": "열기도구"
+    },
+    "compile": {
+      "source": "소스",
+      "filename": "파일명",
+      "mode": "모드",
+      "flags": "플래그",
+      "dont_inherit": "상속안함",
+      "optimize": "최적화"
+    },
+    "eval": {
+      "source": "소스",
+      "globals": "전역공간",
+      "locals": "지역공간"
+    },
+    "exec": {
+      "source": "소스",
+      "globals": "전역공간",
+      "locals": "지역공간",
+      "closure": "클로저"
+    },
+    "complex": {
+      "real": "실수부",
+      "imag": "허수부"
+    },
+    "property": {
+      "fget": "얻기",
+      "fset": "설정",
+      "fdel": "삭제",
+      "doc": "문서"
+    }
+  },
+  "types": {
+    "builtins.list": {
+      "members": {
+        "append": "추가",
+        "extend": "확장",
+        "insert": "삽입",
+        "remove": "제거",
+        "pop": "꺼내기",
+        "clear": "비우기",
+        "index": "위치",
+        "count": "개수",
+        "sort": "정렬",
+        "reverse": "뒤집기",
+        "copy": "복사"
+      },
+      "keywords": {
+        "sort": {
+          "key": "기준",
+          "reverse": "역순"
+        }
+      }
+    },
+    "builtins.tuple": {
+      "members": {
+        "index": "위치",
+        "count": "개수"
+      }
+    },
+    "builtins.dict": {
+      "members": {
+        "clear": "비우기",
+        "copy": "복사",
+        "fromkeys": "키로만들기",
+        "get": "얻기",
+        "items": "항목들",
+        "keys": "키들",
+        "pop": "꺼내기",
+        "popitem": "항목꺼내기",
+        "setdefault": "기본설정",
+        "update": "갱신",
+        "values": "값들"
+      }
+    },
+    "builtins.set": {
+      "members": {
+        "add": "추가",
+        "clear": "비우기",
+        "copy": "복사",
+        "difference": "차집합",
+        "difference_update": "차집합갱신",
+        "discard": "버리기",
+        "intersection": "교집합",
+        "intersection_update": "교집합갱신",
+        "isdisjoint": "서로소",
+        "issubset": "부분집합여부",
+        "issuperset": "상위집합여부",
+        "pop": "꺼내기",
+        "remove": "제거",
+        "symmetric_difference": "대칭차집합",
+        "symmetric_difference_update": "대칭차집합갱신",
+        "union": "합집합",
+        "update": "갱신"
+      }
+    },
+    "builtins.frozenset": {
+      "inherit_members": "builtins.set"
+    },
+    "builtins.str": {
+      "members": {
+        "capitalize": "첫글자대문자",
+        "casefold": "대소문자접기",
+        "center": "가운데맞춤",
+        "count": "개수",
+        "encode": "인코딩",
+        "endswith": "끝일치",
+        "expandtabs": "탭확장",
+        "find": "찾기",
+        "format": "서식",
+        "format_map": "사전서식",
+        "index": "위치",
+        "isalnum": "영숫자여부",
+        "isalpha": "문자여부",
+        "isascii": "아스키여부",
+        "isdecimal": "십진숫자여부",
+        "isdigit": "숫자여부",
+        "isidentifier": "식별자여부",
+        "islower": "소문자여부",
+        "isnumeric": "수치문자여부",
+        "isprintable": "출력가능여부",
+        "isspace": "공백여부",
+        "istitle": "제목형여부",
+        "isupper": "대문자여부",
+        "join": "이어붙이기",
+        "ljust": "왼쪽맞춤",
+        "lower": "소문자",
+        "lstrip": "왼쪽공백제거",
+        "maketrans": "변환표만들기",
+        "partition": "앞분할",
+        "removeprefix": "접두사제거",
+        "removesuffix": "접미사제거",
+        "replace": "바꾸기",
+        "rfind": "뒤에서찾기",
+        "rindex": "뒤에서위치",
+        "rjust": "오른쪽맞춤",
+        "rpartition": "뒤분할",
+        "rsplit": "뒤에서나누기",
+        "rstrip": "오른쪽공백제거",
+        "split": "나누기",
+        "splitlines": "줄나누기",
+        "startswith": "시작일치",
+        "strip": "공백제거",
+        "swapcase": "대소문자뒤집기",
+        "title": "제목형",
+        "translate": "변환",
+        "upper": "대문자",
+        "zfill": "영채우기"
+      },
+      "keywords": {
+        "split": {
+          "sep": "구분",
+          "maxsplit": "최대분할"
+        },
+        "rsplit": {
+          "sep": "구분",
+          "maxsplit": "최대분할"
+        },
+        "splitlines": {
+          "keepends": "줄끝유지"
+        },
+        "encode": {
+          "encoding": "인코딩",
+          "errors": "오류처리"
+        },
+        "replace": {
+          "count": "횟수"
+        }
+      }
+    },
+    "builtins.bytes": {
+      "inherit_members": "builtins.str",
+      "members": {
+        "decode": "해독",
+        "hex": "십육진표현",
+        "fromhex": "십육진해독"
+      },
+      "keywords": {
+        "decode": {
+          "encoding": "인코딩",
+          "errors": "오류처리"
+        }
+      }
+    },
+    "builtins.bytearray": {
+      "inherit_members": "builtins.bytes",
+      "members": {
+        "append": "추가",
+        "extend": "확장",
+        "insert": "삽입",
+        "pop": "꺼내기",
+        "remove": "제거",
+        "reverse": "뒤집기",
+        "clear": "비우기",
+        "copy": "복사"
+      }
+    },
+    "builtins.int": {
+      "members": {
+        "as_integer_ratio": "정수비",
+        "bit_count": "비트개수",
+        "bit_length": "비트길이",
+        "conjugate": "켤레",
+        "from_bytes": "바이트에서",
+        "to_bytes": "바이트로",
+        "is_integer": "정수여부",
+        "real": "실수부",
+        "imag": "허수부",
+        "numerator": "분자",
+        "denominator": "분모"
+      },
+      "keywords": {
+        "to_bytes": {
+          "length": "길이",
+          "byteorder": "바이트순서",
+          "signed": "부호있음"
+        },
+        "from_bytes": {
+          "byteorder": "바이트순서",
+          "signed": "부호있음"
+        }
+      }
+    },
+    "builtins.float": {
+      "members": {
+        "as_integer_ratio": "정수비",
+        "conjugate": "켤레",
+        "fromhex": "십육진해독",
+        "hex": "십육진표현",
+        "is_integer": "정수여부",
+        "real": "실수부",
+        "imag": "허수부"
+      }
+    },
+    "builtins.complex": {
+      "members": {
+        "conjugate": "켤레",
+        "real": "실수부",
+        "imag": "허수부"
+      }
+    },
+    "builtins.memoryview": {
+      "members": {
+        "tobytes": "바이트로",
+        "tolist": "목록으로",
+        "hex": "십육진표현",
+        "release": "해제",
+        "cast": "형변환",
+        "readonly": "읽기전용",
+        "nbytes": "바이트수",
+        "format": "서식",
+        "shape": "모양",
+        "ndim": "차원수",
+        "itemsize": "항목크기"
+      }
+    },
+    "_io._IOBase": {
+      "members": {
+        "close": "닫기",
+        "closed": "닫힘",
+        "flush": "비우기",
+        "read": "읽기",
+        "readline": "한줄읽기",
+        "readlines": "줄들읽기",
+        "write": "쓰기",
+        "writelines": "줄들쓰기",
+        "seek": "위치이동",
+        "tell": "현재위치",
+        "truncate": "자르기",
+        "readable": "읽기가능",
+        "writable": "쓰기가능",
+        "seekable": "이동가능",
+        "fileno": "파일번호",
+        "isatty": "터미널여부"
+      }
+    },
+    "pathlib.Path": {
+      "members": {
+        "read_text": "문자열읽기",
+        "write_text": "문자열쓰기",
+        "read_bytes": "바이트읽기",
+        "write_bytes": "바이트쓰기",
+        "exists": "존재",
+        "is_file": "파일여부",
+        "is_dir": "디렉터리여부",
+        "mkdir": "디렉터리만들기",
+        "iterdir": "목록보기",
+        "glob": "패턴찾기",
+        "rglob": "재귀패턴찾기",
+        "resolve": "절대경로",
+        "absolute": "절대위치",
+        "unlink": "파일삭제",
+        "rmdir": "디렉터리삭제",
+        "rename": "이름변경",
+        "replace": "교체",
+        "open": "열기",
+        "cwd": "현재경로",
+        "home": "홈경로",
+        "stat": "상태",
+        "touch": "빈파일만들기"
+      },
+      "keywords": {
+        "read_text": {
+          "encoding": "인코딩",
+          "errors": "오류처리"
+        },
+        "write_text": {
+          "data": "내용",
+          "encoding": "인코딩",
+          "errors": "오류처리",
+          "newline": "줄바꿈"
+        },
+        "mkdir": {
+          "mode": "모드",
+          "parents": "부모포함",
+          "exist_ok": "이미존재허용"
+        },
+        "open": {
+          "mode": "모드",
+          "encoding": "인코딩",
+          "errors": "오류처리",
+          "newline": "줄바꿈"
+        },
+        "unlink": {
+          "missing_ok": "없어도허용"
+        }
+      }
+    },
+    "pathlib.PurePath": {
+      "members": {
+        "name": "이름",
+        "stem": "확장자없는이름",
+        "suffix": "확장자",
+        "suffixes": "확장자들",
+        "parent": "부모",
+        "parents": "부모들",
+        "parts": "구성요소",
+        "joinpath": "경로합치기",
+        "with_name": "이름바꾸기",
+        "with_suffix": "확장자바꾸기",
+        "as_posix": "포직스표현",
+        "is_absolute": "절대경로여부",
+        "relative_to": "상대경로"
+      }
+    },
+    "collections.deque": {
+      "members": {
+        "append": "추가",
+        "appendleft": "왼쪽추가",
+        "clear": "비우기",
+        "copy": "복사",
+        "count": "개수",
+        "extend": "확장",
+        "extendleft": "왼쪽확장",
+        "index": "위치",
+        "insert": "삽입",
+        "pop": "꺼내기",
+        "popleft": "왼쪽꺼내기",
+        "remove": "제거",
+        "reverse": "뒤집기",
+        "rotate": "회전",
+        "maxlen": "최대길이"
+      }
+    },
+    "collections.Counter": {
+      "inherit_members": "builtins.dict",
+      "members": {
+        "elements": "원소들",
+        "most_common": "빈도순",
+        "subtract": "빼기",
+        "total": "총개수"
+      }
+    },
+    "datetime.date": {
+      "members": {
+        "today": "오늘",
+        "fromisoformat": "표준형식에서",
+        "isoformat": "표준형식",
+        "year": "연도",
+        "month": "월",
+        "day": "일",
+        "weekday": "요일",
+        "isoweekday": "표준요일",
+        "replace": "교체",
+        "strftime": "문자열서식"
+      }
+    },
+    "datetime.datetime": {
+      "inherit_members": "datetime.date",
+      "members": {
+        "now": "지금",
+        "fromtimestamp": "시각값에서",
+        "timestamp": "시각값",
+        "hour": "시",
+        "minute": "분",
+        "second": "초",
+        "microsecond": "마이크로초",
+        "date": "날짜",
+        "time": "시간",
+        "astimezone": "시간대변환",
+        "tzinfo": "시간대정보"
+      }
+    },
+    "datetime.timedelta": {
+      "members": {
+        "days": "일수",
+        "seconds": "초수",
+        "microseconds": "마이크로초수",
+        "total_seconds": "전체초"
+      }
+    },
+    "random.Random": {
+      "members": {
+        "random": "난수",
+        "randint": "정수난수",
+        "randrange": "범위난수",
+        "choice": "고르기",
+        "choices": "여럿고르기",
+        "sample": "표본",
+        "shuffle": "섞기",
+        "seed": "씨앗설정",
+        "uniform": "균등난수"
+      }
+    },
+    "re.Pattern": {
+      "members": {
+        "match": "시작일치",
+        "fullmatch": "전체일치",
+        "search": "검색",
+        "findall": "모두찾기",
+        "finditer": "찾기반복자",
+        "split": "나누기",
+        "sub": "치환",
+        "subn": "치환과개수",
+        "pattern": "패턴",
+        "flags": "플래그"
+      }
+    },
+    "re.Match": {
+      "members": {
+        "group": "그룹",
+        "groups": "그룹들",
+        "groupdict": "그룹사전",
+        "start": "시작",
+        "end": "끝",
+        "span": "구간"
+      }
+    },
+    "numpy.ndarray": {
+      "members": {
+        "shape": "모양",
+        "ndim": "차원수",
+        "size": "크기",
+        "dtype": "자료형",
+        "reshape": "모양변경",
+        "sum": "합계",
+        "mean": "평균",
+        "std": "표준편차",
+        "min": "최솟값",
+        "max": "최댓값",
+        "tolist": "목록으로",
+        "astype": "형변환",
+        "copy": "복사",
+        "flatten": "펼치기",
+        "T": "전치"
+      },
+      "keywords": {
+        "reshape": {
+          "order": "순서",
+          "copy": "복사"
+        },
+        "sum": {
+          "axis": "축",
+          "dtype": "자료형",
+          "keepdims": "차원유지"
+        },
+        "mean": {
+          "axis": "축",
+          "keepdims": "차원유지"
+        }
+      }
+    },
+    "pandas.core.frame.DataFrame": {
+      "members": {
+        "head": "앞부분",
+        "tail": "뒷부분",
+        "describe": "요약통계",
+        "columns": "열들",
+        "index": "색인",
+        "shape": "모양",
+        "loc": "이름선택",
+        "iloc": "위치선택",
+        "drop": "제거",
+        "dropna": "결측제거",
+        "fillna": "결측채우기",
+        "groupby": "묶기",
+        "sort_values": "값정렬",
+        "to_csv": "쉼표파일로",
+        "to_dict": "사전으로",
+        "copy": "복사",
+        "sum": "합계",
+        "mean": "평균"
+      },
+      "keywords": {
+        "head": {
+          "n": "개수"
+        },
+        "tail": {
+          "n": "개수"
+        },
+        "sort_values": {
+          "by": "기준",
+          "ascending": "오름차순",
+          "inplace": "원본수정"
+        },
+        "to_csv": {
+          "path_or_buf": "경로",
+          "index": "색인포함",
+          "encoding": "인코딩",
+          "sep": "구분"
+        },
+        "dropna": {
+          "axis": "축",
+          "inplace": "원본수정"
+        },
+        "groupby": {
+          "by": "기준",
+          "sort": "정렬"
+        }
+      }
+    },
+    "pandas.core.series.Series": {
+      "members": {
+        "sum": "합계",
+        "mean": "평균",
+        "tolist": "목록으로",
+        "value_counts": "빈도",
+        "unique": "고유값",
+        "isna": "결측여부",
+        "fillna": "결측채우기",
+        "name": "이름"
+      }
+    }
+  },
+  "modules": {
+    "math": {
+      "alias": "수학",
+      "members": {
+        "sqrt": "제곱근",
+        "isqrt": "정수제곱근",
+        "ceil": "올림",
+        "floor": "내림",
+        "trunc": "버림",
+        "fabs": "실수절댓값",
+        "factorial": "계승",
+        "gcd": "최대공약수",
+        "lcm": "최소공배수",
+        "comb": "조합수",
+        "perm": "순열수",
+        "pow": "거듭제곱",
+        "exp": "지수함수",
+        "log": "로그",
+        "log2": "이진로그",
+        "log10": "상용로그",
+        "sin": "사인",
+        "cos": "코사인",
+        "tan": "탄젠트",
+        "asin": "역사인",
+        "acos": "역코사인",
+        "atan": "역탄젠트",
+        "atan2": "두인자역탄젠트",
+        "degrees": "도로",
+        "radians": "라디안으로",
+        "hypot": "빗변",
+        "dist": "거리",
+        "fsum": "정밀합계",
+        "prod": "곱",
+        "isclose": "근사같음",
+        "isfinite": "유한여부",
+        "isinf": "무한여부",
+        "isnan": "비수여부",
+        "pi": "원주율",
+        "e": "자연상수",
+        "tau": "한바퀴",
+        "inf": "무한대",
+        "nan": "비수"
+      },
+      "keywords": {
+        "isclose": {
+          "rel_tol": "상대오차",
+          "abs_tol": "절대오차"
+        },
+        "prod": {
+          "start": "시작"
+        }
+      }
+    },
+    "random": {
+      "alias": "무작위",
+      "members": {
+        "Random": "난수기",
+        "random": "난수",
+        "randint": "정수난수",
+        "randrange": "범위난수",
+        "choice": "고르기",
+        "choices": "여럿고르기",
+        "sample": "표본",
+        "shuffle": "섞기",
+        "seed": "씨앗설정",
+        "uniform": "균등난수"
+      },
+      "keywords": {
+        "choices": {
+          "weights": "가중치",
+          "cum_weights": "누적가중치",
+          "k": "개수"
+        },
+        "sample": {
+          "k": "개수",
+          "counts": "개수들"
+        }
+      }
+    },
+    "pathlib": {
+      "alias": "경로도구",
+      "members": {
+        "Path": "경로",
+        "PurePath": "순수경로",
+        "PosixPath": "포직스경로",
+        "WindowsPath": "윈도우경로"
+      }
+    },
+    "os": {
+      "alias": "운영체제",
+      "members": {
+        "path": "경로",
+        "getcwd": "현재경로",
+        "chdir": "경로변경",
+        "listdir": "목록보기",
+        "mkdir": "디렉터리만들기",
+        "makedirs": "디렉터리들만들기",
+        "remove": "파일삭제",
+        "rmdir": "디렉터리삭제",
+        "rename": "이름변경",
+        "environ": "환경변수",
+        "getenv": "환경얻기",
+        "walk": "경로순회",
+        "sep": "경로구분자",
+        "name": "이름",
+        "fspath": "파일경로"
+      }
+    },
+    "os.path": {
+      "alias": "운영체제.경로",
+      "members": {
+        "join": "합치기",
+        "exists": "존재",
+        "isfile": "파일여부",
+        "isdir": "디렉터리여부",
+        "basename": "파일명",
+        "dirname": "디렉터리명",
+        "abspath": "절대경로",
+        "splitext": "확장자분리",
+        "expanduser": "사용자경로확장"
+      }
+    },
+    "sys": {
+      "alias": "시스템",
+      "members": {
+        "argv": "인자들",
+        "path": "모듈경로",
+        "version": "버전",
+        "version_info": "버전정보",
+        "platform": "플랫폼",
+        "stdin": "표준입력",
+        "stdout": "표준출력",
+        "stderr": "표준오류",
+        "exit": "종료",
+        "executable": "실행파일",
+        "getsizeof": "메모리크기"
+      }
+    },
+    "json": {
+      "alias": "제이슨",
+      "members": {
+        "load": "읽기",
+        "loads": "해독",
+        "dump": "쓰기",
+        "dumps": "인코딩",
+        "JSONDecodeError": "해독오류"
+      },
+      "keywords": {
+        "dumps": {
+          "ensure_ascii": "아스키만",
+          "indent": "들여쓰기",
+          "sort_keys": "키정렬",
+          "default": "기본처리"
+        },
+        "dump": {
+          "ensure_ascii": "아스키만",
+          "indent": "들여쓰기",
+          "sort_keys": "키정렬"
+        }
+      }
+    },
+    "datetime": {
+      "alias": "날짜시간",
+      "members": {
+        "date": "날짜",
+        "datetime": "날짜시각",
+        "time": "시각",
+        "timedelta": "시간차",
+        "timezone": "시간대",
+        "UTC": "협정세계시"
+      },
+      "keywords": {
+        "timedelta": {
+          "days": "일수",
+          "seconds": "초수",
+          "microseconds": "마이크로초수",
+          "milliseconds": "밀리초수",
+          "minutes": "분수",
+          "hours": "시간수",
+          "weeks": "주수"
+        }
+      }
+    },
+    "time": {
+      "alias": "시간",
+      "members": {
+        "time": "현재시각",
+        "sleep": "잠시대기",
+        "monotonic": "단조시각",
+        "perf_counter": "성능시계",
+        "strftime": "문자열서식",
+        "strptime": "시각해석",
+        "localtime": "현지시각",
+        "gmtime": "세계시각"
+      }
+    },
+    "collections": {
+      "alias": "자료모음",
+      "members": {
+        "Counter": "계수기",
+        "defaultdict": "기본사전",
+        "deque": "양끝큐",
+        "namedtuple": "이름튜플",
+        "OrderedDict": "순서사전",
+        "ChainMap": "연결사전"
+      }
+    },
+    "itertools": {
+      "alias": "반복도구",
+      "members": {
+        "chain": "연결",
+        "count": "계속세기",
+        "cycle": "순환",
+        "repeat": "되풀이",
+        "product": "곱집합",
+        "permutations": "순열",
+        "combinations": "조합",
+        "accumulate": "누적",
+        "islice": "반복조각",
+        "groupby": "묶기",
+        "zip_longest": "긴짝짓기",
+        "pairwise": "이웃짝",
+        "batched": "묶음나누기"
+      }
+    },
+    "functools": {
+      "alias": "함수도구",
+      "members": {
+        "reduce": "누적적용",
+        "partial": "부분적용",
+        "wraps": "감싸기",
+        "lru_cache": "최근사용캐시",
+        "cache": "캐시",
+        "cached_property": "캐시속성",
+        "singledispatch": "단일분배",
+        "cmp_to_key": "비교를기준으로"
+      }
+    },
+    "statistics": {
+      "alias": "통계",
+      "members": {
+        "mean": "평균",
+        "fmean": "실수평균",
+        "median": "중앙값",
+        "mode": "최빈값",
+        "multimode": "최빈값들",
+        "stdev": "표본표준편차",
+        "pstdev": "모표준편차",
+        "variance": "표본분산",
+        "pvariance": "모분산",
+        "quantiles": "분위수",
+        "correlation": "상관계수",
+        "NormalDist": "정규분포"
+      }
+    },
+    "re": {
+      "alias": "정규식",
+      "members": {
+        "compile": "컴파일",
+        "match": "시작일치",
+        "fullmatch": "전체일치",
+        "search": "검색",
+        "findall": "모두찾기",
+        "finditer": "찾기반복자",
+        "split": "나누기",
+        "sub": "치환",
+        "subn": "치환과개수",
+        "escape": "이스케이프",
+        "IGNORECASE": "대소문자무시",
+        "MULTILINE": "여러줄",
+        "DOTALL": "점모두",
+        "Pattern": "패턴형",
+        "Match": "일치형"
+      },
+      "keywords": {
+        "compile": {
+          "flags": "플래그"
+        },
+        "sub": {
+          "count": "횟수",
+          "flags": "플래그"
+        }
+      }
+    },
+    "csv": {
+      "alias": "쉼표파일",
+      "members": {
+        "reader": "읽기도구",
+        "writer": "쓰기도구",
+        "DictReader": "사전읽기도구",
+        "DictWriter": "사전쓰기도구"
+      }
+    },
+    "io": {
+      "alias": "입출력",
+      "members": {
+        "StringIO": "문자열버퍼",
+        "BytesIO": "바이트버퍼",
+        "open": "열기"
+      }
+    },
+    "asyncio": {
+      "alias": "비동기도구",
+      "members": {
+        "run": "실행",
+        "sleep": "잠시대기",
+        "gather": "모으기",
+        "create_task": "작업만들기",
+        "TaskGroup": "작업묶음",
+        "Queue": "대기열",
+        "Lock": "잠금",
+        "wait_for": "제한대기",
+        "to_thread": "스레드에서"
+      }
+    },
+    "typing": {
+      "alias": "자료형도구",
+      "members": {
+        "Any": "아무형",
+        "Optional": "선택형",
+        "Union": "합형",
+        "Callable": "호출형",
+        "Iterable": "반복가능형",
+        "Iterator": "반복자형",
+        "Protocol": "규약",
+        "TypeVar": "형변수",
+        "Generic": "범용형",
+        "Literal": "리터럴형",
+        "TypedDict": "형지정사전",
+        "Self": "자기형",
+        "overload": "다중정의",
+        "cast": "형주장"
+      }
+    },
+    "dataclasses": {
+      "alias": "자료클래스",
+      "members": {
+        "dataclass": "자료형정의",
+        "field": "필드",
+        "asdict": "사전으로",
+        "astuple": "튜플로",
+        "replace": "교체",
+        "fields": "필드들"
+      },
+      "keywords": {
+        "dataclass": {
+          "init": "초기화",
+          "repr": "표현",
+          "eq": "동등비교",
+          "order": "순서비교",
+          "frozen": "동결",
+          "slots": "슬롯"
+        },
+        "field": {
+          "default": "기본값",
+          "default_factory": "기본생성기",
+          "repr": "표현",
+          "compare": "비교"
+        }
+      }
+    },
+    "enum": {
+      "alias": "열거도구",
+      "members": {
+        "Enum": "열거형",
+        "IntEnum": "정수열거형",
+        "StrEnum": "문자열열거형",
+        "Flag": "플래그형",
+        "auto": "자동값",
+        "unique": "고유값검사"
+      }
+    },
+    "decimal": {
+      "alias": "십진도구",
+      "members": {
+        "Decimal": "십진수",
+        "getcontext": "설정얻기",
+        "localcontext": "지역설정"
+      }
+    },
+    "fractions": {
+      "alias": "분수도구",
+      "members": {
+        "Fraction": "분수"
+      }
+    },
+    "copy": {
+      "alias": "복사도구",
+      "members": {
+        "copy": "얕은복사",
+        "deepcopy": "깊은복사",
+        "replace": "교체"
+      }
+    },
+    "heapq": {
+      "alias": "힙도구",
+      "members": {
+        "heappush": "넣기",
+        "heappop": "꺼내기",
+        "heapify": "힙만들기",
+        "nlargest": "큰값들",
+        "nsmallest": "작은값들"
+      }
+    },
+    "bisect": {
+      "alias": "이진탐색",
+      "members": {
+        "bisect_left": "왼쪽위치",
+        "bisect_right": "오른쪽위치",
+        "insort": "정렬삽입"
+      }
+    },
+    "operator": {
+      "alias": "연산도구",
+      "members": {
+        "itemgetter": "항목얻기도구",
+        "attrgetter": "속성얻기도구",
+        "methodcaller": "메서드호출도구",
+        "add": "더하기",
+        "mul": "곱하기"
+      }
+    },
+    "__future__": {
+      "alias": "__미래__",
+      "members": {
+        "annotations": "주석"
+      }
+    },
+    "numpy": {
+      "alias": "넘파이",
+      "members": {
+        "array": "배열",
+        "asarray": "배열로",
+        "arange": "수열",
+        "zeros": "영배열",
+        "ones": "일배열",
+        "linspace": "균등수열",
+        "mean": "평균",
+        "sum": "합계",
+        "std": "표준편차",
+        "dot": "내적",
+        "concatenate": "연결",
+        "ndarray": "배열형",
+        "int64": "정수64",
+        "float64": "실수64"
+      },
+      "keywords": {
+        "array": {
+          "dtype": "자료형",
+          "copy": "복사"
+        },
+        "mean": {
+          "axis": "축",
+          "keepdims": "차원유지"
+        },
+        "sum": {
+          "axis": "축",
+          "keepdims": "차원유지"
+        }
+      }
+    },
+    "pandas": {
+      "alias": "판다스",
+      "members": {
+        "DataFrame": "자료표",
+        "Series": "자료열",
+        "read_csv": "쉼표파일읽기",
+        "read_excel": "엑셀읽기",
+        "concat": "연결",
+        "merge": "병합",
+        "isna": "결측여부",
+        "NA": "결측값"
+      },
+      "keywords": {
+        "DataFrame": {
+          "data": "자료",
+          "index": "색인",
+          "columns": "열들",
+          "dtype": "자료형"
+        },
+        "read_csv": {
+          "filepath_or_buffer": "경로",
+          "encoding": "인코딩",
+          "sep": "구분",
+          "header": "머리글",
+          "index_col": "색인열"
+        },
+        "concat": {
+          "axis": "축",
+          "ignore_index": "색인무시"
+        },
+        "merge": {
+          "on": "기준",
+          "how": "방식"
+        }
+      }
+    },
+    "abc": {
+      "alias": "추상기반"
+    },
+    "antigravity": {
+      "alias": "반중력"
+    },
+    "argparse": {
+      "alias": "인자해석",
+      "members": {
+        "ArgumentParser": "인자해석기",
+        "Namespace": "이름공간"
+      }
+    },
+    "array": {
+      "alias": "배열도구"
+    },
+    "ast": {
+      "alias": "구문트리"
+    },
+    "atexit": {
+      "alias": "종료처리"
+    },
+    "base64": {
+      "alias": "육십사진법",
+      "members": {
+        "b64encode": "육십사진인코딩",
+        "b64decode": "육십사진해독"
+      }
+    },
+    "bdb": {
+      "alias": "기본디버거"
+    },
+    "binascii": {
+      "alias": "이진아스키"
+    },
+    "builtins": {
+      "alias": "내장도구",
+      "members": {
+        "abs": "절댓값",
+        "aiter": "비동기반복자",
+        "all": "모두",
+        "anext": "비동기다음",
+        "any": "하나라도",
+        "ascii": "아스키표현",
+        "bin": "이진표현",
+        "bool": "논리값",
+        "breakpoint": "중단점",
+        "bytearray": "바이트배열",
+        "bytes": "바이트",
+        "callable": "호출가능",
+        "chr": "문자",
+        "classmethod": "클래스메서드",
+        "compile": "컴파일",
+        "complex": "복소수",
+        "copyright": "저작권",
+        "credits": "기여자",
+        "delattr": "속성삭제",
+        "dict": "사전",
+        "dir": "속성목록",
+        "divmod": "몫과나머지",
+        "enumerate": "번호붙이기",
+        "eval": "평가",
+        "exec": "실행",
+        "exit": "나가기",
+        "filter": "거르기",
+        "float": "실수",
+        "format": "서식",
+        "frozenset": "고정집합",
+        "getattr": "속성얻기",
+        "globals": "전역변수",
+        "hasattr": "속성있음",
+        "hash": "해시",
+        "help": "도움말",
+        "hex": "십육진표현",
+        "id": "식별값",
+        "input": "입력",
+        "int": "정수",
+        "isinstance": "자료형확인",
+        "issubclass": "하위클래스확인",
+        "iter": "반복자",
+        "len": "길이",
+        "license": "이용허락",
+        "list": "목록",
+        "locals": "지역변수",
+        "map": "대응",
+        "max": "최댓값",
+        "memoryview": "메모리뷰",
+        "min": "최솟값",
+        "next": "다음",
+        "object": "객체",
+        "oct": "팔진표현",
+        "open": "열기",
+        "ord": "문자번호",
+        "pow": "거듭제곱",
+        "print": "출력",
+        "property": "속성",
+        "quit": "종료",
+        "range": "범위",
+        "repr": "표현",
+        "reversed": "역순반복",
+        "round": "반올림",
+        "set": "집합",
+        "setattr": "속성설정",
+        "slice": "조각",
+        "sorted": "정렬",
+        "staticmethod": "정적메서드",
+        "str": "문자열",
+        "sum": "합계",
+        "super": "상위",
+        "tuple": "튜플",
+        "type": "자료형",
+        "vars": "변수목록",
+        "zip": "짝짓기",
+        "Ellipsis": "줄임표",
+        "NotImplemented": "구현안됨",
+        "ArithmeticError": "산술오류",
+        "AssertionError": "단언오류",
+        "AttributeError": "속성오류",
+        "BaseException": "최상위예외",
+        "BaseExceptionGroup": "최상위예외묶음",
+        "BlockingIOError": "입출력차단오류",
+        "BrokenPipeError": "끊어진파이프오류",
+        "BufferError": "버퍼오류",
+        "BytesWarning": "바이트경고",
+        "ChildProcessError": "자식프로세스오류",
+        "ConnectionAbortedError": "연결중단오류",
+        "ConnectionError": "연결오류",
+        "ConnectionRefusedError": "연결거부오류",
+        "ConnectionResetError": "연결초기화오류",
+        "DeprecationWarning": "사용중단경고",
+        "EOFError": "입력끝오류",
+        "EncodingWarning": "인코딩경고",
+        "EnvironmentError": "환경오류",
+        "Exception": "일반예외",
+        "ExceptionGroup": "예외묶음",
+        "FileExistsError": "파일존재오류",
+        "FileNotFoundError": "파일없음오류",
+        "FloatingPointError": "부동소수점오류",
+        "FutureWarning": "미래변경경고",
+        "GeneratorExit": "생성기종료",
+        "IOError": "입출력오류",
+        "ImportError": "불러오기오류",
+        "ImportWarning": "불러오기경고",
+        "IndentationError": "들여쓰기오류",
+        "IndexError": "색인오류",
+        "InterruptedError": "작업중단오류",
+        "IsADirectoryError": "디렉터리대상오류",
+        "KeyError": "키오류",
+        "KeyboardInterrupt": "키보드중단",
+        "LookupError": "조회오류",
+        "MemoryError": "메모리오류",
+        "ModuleNotFoundError": "모듈없음오류",
+        "NameError": "이름오류",
+        "NotADirectoryError": "디렉터리아님오류",
+        "NotImplementedError": "미구현오류",
+        "OSError": "운영체제오류",
+        "OverflowError": "넘침오류",
+        "PendingDeprecationWarning": "사용중단예정경고",
+        "PermissionError": "권한오류",
+        "ProcessLookupError": "프로세스조회오류",
+        "PythonFinalizationError": "파이썬종료처리오류",
+        "RecursionError": "재귀오류",
+        "ReferenceError": "참조오류",
+        "ResourceWarning": "자원경고",
+        "RuntimeError": "실행오류",
+        "RuntimeWarning": "실행경고",
+        "StopAsyncIteration": "비동기반복끝",
+        "StopIteration": "반복끝",
+        "SyntaxError": "문법오류",
+        "SyntaxWarning": "문법경고",
+        "SystemError": "시스템오류",
+        "SystemExit": "시스템종료",
+        "TabError": "탭오류",
+        "TimeoutError": "시간초과오류",
+        "TypeError": "자료형오류",
+        "UnboundLocalError": "미할당지역변수오류",
+        "UnicodeDecodeError": "유니코드해독오류",
+        "UnicodeEncodeError": "유니코드인코딩오류",
+        "UnicodeError": "유니코드오류",
+        "UnicodeTranslateError": "유니코드변환오류",
+        "UnicodeWarning": "유니코드경고",
+        "UserWarning": "사용자경고",
+        "ValueError": "값오류",
+        "Warning": "경고",
+        "WindowsError": "윈도우오류",
+        "ZeroDivisionError": "영나눗셈오류"
+      },
+      "keywords": {
+        "print": {
+          "sep": "구분",
+          "end": "끝",
+          "file": "파일",
+          "flush": "즉시"
+        },
+        "sorted": {
+          "key": "기준",
+          "reverse": "역순"
+        },
+        "min": {
+          "key": "기준",
+          "default": "기본값"
+        },
+        "max": {
+          "key": "기준",
+          "default": "기본값"
+        },
+        "sum": {
+          "start": "시작"
+        },
+        "enumerate": {
+          "start": "시작"
+        },
+        "zip": {
+          "strict": "엄격"
+        },
+        "round": {
+          "ndigits": "자릿수"
+        },
+        "pow": {
+          "base": "밑",
+          "exp": "지수",
+          "mod": "나머지기준"
+        },
+        "int": {
+          "base": "진법"
+        },
+        "str": {
+          "encoding": "인코딩",
+          "errors": "오류처리"
+        },
+        "bytes": {
+          "encoding": "인코딩",
+          "errors": "오류처리"
+        },
+        "bytearray": {
+          "encoding": "인코딩",
+          "errors": "오류처리"
+        },
+        "open": {
+          "file": "파일",
+          "mode": "모드",
+          "buffering": "버퍼링",
+          "encoding": "인코딩",
+          "errors": "오류처리",
+          "newline": "줄바꿈",
+          "closefd": "서술자닫기",
+          "opener": "열기도구"
+        },
+        "compile": {
+          "source": "소스",
+          "filename": "파일명",
+          "mode": "모드",
+          "flags": "플래그",
+          "dont_inherit": "상속안함",
+          "optimize": "최적화"
+        },
+        "eval": {
+          "source": "소스",
+          "globals": "전역공간",
+          "locals": "지역공간"
+        },
+        "exec": {
+          "source": "소스",
+          "globals": "전역공간",
+          "locals": "지역공간",
+          "closure": "클로저"
+        },
+        "complex": {
+          "real": "실수부",
+          "imag": "허수부"
+        },
+        "property": {
+          "fget": "얻기",
+          "fset": "설정",
+          "fdel": "삭제",
+          "doc": "문서"
+        }
+      }
+    },
+    "bz2": {
+      "alias": "비지압축"
+    },
+    "cProfile": {
+      "alias": "시프로파일"
+    },
+    "calendar": {
+      "alias": "달력"
+    },
+    "cmath": {
+      "alias": "복소수학"
+    },
+    "cmd": {
+      "alias": "명령셸"
+    },
+    "code": {
+      "alias": "대화코드"
+    },
+    "codecs": {
+      "alias": "인코딩도구"
+    },
+    "codeop": {
+      "alias": "코드완성판정"
+    },
+    "colorsys": {
+      "alias": "색상변환"
+    },
+    "compileall": {
+      "alias": "전체컴파일"
+    },
+    "concurrent": {
+      "alias": "동시실행"
+    },
+    "concurrent.futures": {
+      "alias": "동시실행.미래결과",
+      "members": {
+        "ThreadPoolExecutor": "스레드풀",
+        "ProcessPoolExecutor": "프로세스풀",
+        "as_completed": "완료순",
+        "wait": "대기"
+      }
+    },
+    "configparser": {
+      "alias": "설정해석"
+    },
+    "contextlib": {
+      "alias": "문맥도구",
+      "members": {
+        "contextmanager": "문맥관리자",
+        "asynccontextmanager": "비동기문맥관리자",
+        "suppress": "억제",
+        "nullcontext": "빈문맥",
+        "closing": "닫기보장",
+        "redirect_stdout": "표준출력전환",
+        "ExitStack": "종료스택"
+      }
+    },
+    "contextvars": {
+      "alias": "문맥변수"
+    },
+    "copyreg": {
+      "alias": "복사등록"
+    },
+    "ctypes": {
+      "alias": "시자료형"
+    },
+    "curses": {
+      "alias": "터미널화면"
+    },
+    "dbm": {
+      "alias": "단순데이터베이스"
+    },
+    "difflib": {
+      "alias": "차이비교"
+    },
+    "dis": {
+      "alias": "바이트코드해석"
+    },
+    "doctest": {
+      "alias": "문서시험"
+    },
+    "email": {
+      "alias": "전자우편"
+    },
+    "encodings": {
+      "alias": "인코딩모음"
+    },
+    "ensurepip": {
+      "alias": "패키지도구설치"
+    },
+    "errno": {
+      "alias": "오류번호"
+    },
+    "faulthandler": {
+      "alias": "장애처리"
+    },
+    "fcntl": {
+      "alias": "파일제어"
+    },
+    "filecmp": {
+      "alias": "파일비교"
+    },
+    "fileinput": {
+      "alias": "파일입력"
+    },
+    "fnmatch": {
+      "alias": "파일명일치"
+    },
+    "ftplib": {
+      "alias": "파일전송"
+    },
+    "gc": {
+      "alias": "메모리수거"
+    },
+    "genericpath": {
+      "alias": "공통경로"
+    },
+    "getopt": {
+      "alias": "옵션얻기"
+    },
+    "getpass": {
+      "alias": "암호입력"
+    },
+    "gettext": {
+      "alias": "다국어문구"
+    },
+    "glob": {
+      "alias": "경로패턴"
+    },
+    "graphlib": {
+      "alias": "그래프도구"
+    },
+    "grp": {
+      "alias": "그룹정보"
+    },
+    "gzip": {
+      "alias": "지집압축",
+      "members": {
+        "open": "열기",
+        "compress": "압축",
+        "decompress": "압축풀기"
+      }
+    },
+    "hashlib": {
+      "alias": "해시도구",
+      "members": {
+        "sha256": "샤256",
+        "sha512": "샤512",
+        "md5": "엠디5",
+        "new": "만들기"
+      }
+    },
+    "hmac": {
+      "alias": "메시지인증"
+    },
+    "html": {
+      "alias": "하이퍼문서",
+      "members": {
+        "escape": "이스케이프",
+        "unescape": "이스케이프해제"
+      }
+    },
+    "http": {
+      "alias": "웹통신"
+    },
+    "http.client": {
+      "alias": "웹통신.클라이언트"
+    },
+    "http.server": {
+      "alias": "웹통신.서버"
+    },
+    "idlelib": {
+      "alias": "아이들편집기"
+    },
+    "imaplib": {
+      "alias": "우편접근"
+    },
+    "importlib": {
+      "alias": "모듈적재",
+      "members": {
+        "import_module": "모듈불러오기",
+        "reload": "다시불러오기"
+      }
+    },
+    "inspect": {
+      "alias": "코드조사",
+      "members": {
+        "signature": "인자명세",
+        "getsource": "소스얻기",
+        "isfunction": "함수여부"
+      }
+    },
+    "ipaddress": {
+      "alias": "인터넷주소"
+    },
+    "keyword": {
+      "alias": "예약어도구"
+    },
+    "linecache": {
+      "alias": "줄캐시"
+    },
+    "locale": {
+      "alias": "지역설정"
+    },
+    "logging": {
+      "alias": "기록도구",
+      "members": {
+        "debug": "디버그",
+        "info": "정보",
+        "warning": "경고",
+        "error": "오류",
+        "exception": "예외기록",
+        "critical": "치명적",
+        "getLogger": "기록기얻기",
+        "basicConfig": "기본설정",
+        "DEBUG": "디버그수준",
+        "INFO": "정보수준"
+      }
+    },
+    "lzma": {
+      "alias": "엘지엠에이압축"
+    },
+    "mailbox": {
+      "alias": "우편함"
+    },
+    "marshal": {
+      "alias": "내부직렬화"
+    },
+    "mimetypes": {
+      "alias": "매체유형"
+    },
+    "mmap": {
+      "alias": "메모리매핑"
+    },
+    "modulefinder": {
+      "alias": "모듈찾기"
+    },
+    "msvcrt": {
+      "alias": "윈도우시실행기"
+    },
+    "multiprocessing": {
+      "alias": "다중프로세스"
+    },
+    "netrc": {
+      "alias": "네트워크인증정보"
+    },
+    "nt": {
+      "alias": "윈도우내부"
+    },
+    "ntpath": {
+      "alias": "윈도우경로도구"
+    },
+    "nturl2path": {
+      "alias": "윈도우주소경로"
+    },
+    "numbers": {
+      "alias": "수치기반"
+    },
+    "opcode": {
+      "alias": "명령코드"
+    },
+    "optparse": {
+      "alias": "구형옵션해석"
+    },
+    "pdb": {
+      "alias": "파이썬디버거"
+    },
+    "pickle": {
+      "alias": "객체직렬화",
+      "members": {
+        "dump": "쓰기",
+        "dumps": "직렬화",
+        "load": "읽기",
+        "loads": "역직렬화"
+      }
+    },
+    "pickletools": {
+      "alias": "직렬화조사"
+    },
+    "pkgutil": {
+      "alias": "패키지도구"
+    },
+    "platform": {
+      "alias": "실행환경",
+      "members": {
+        "system": "시스템",
+        "machine": "기계",
+        "python_version": "파이썬버전"
+      }
+    },
+    "plistlib": {
+      "alias": "속성목록파일"
+    },
+    "poplib": {
+      "alias": "우편받기"
+    },
+    "posix": {
+      "alias": "포직스내부"
+    },
+    "posixpath": {
+      "alias": "포직스경로도구"
+    },
+    "pprint": {
+      "alias": "보기좋은출력"
+    },
+    "profile": {
+      "alias": "성능분석"
+    },
+    "pstats": {
+      "alias": "성능통계"
+    },
+    "pty": {
+      "alias": "가상터미널"
+    },
+    "pwd": {
+      "alias": "사용자정보"
+    },
+    "py_compile": {
+      "alias": "파일컴파일"
+    },
+    "pyclbr": {
+      "alias": "클래스찾기"
+    },
+    "pydoc": {
+      "alias": "파이썬문서"
+    },
+    "pydoc_data": {
+      "alias": "파이썬문서자료"
+    },
+    "pyexpat": {
+      "alias": "엑스엠엘내부해석"
+    },
+    "queue": {
+      "alias": "대기열도구",
+      "members": {
+        "Queue": "대기열",
+        "PriorityQueue": "우선대기열",
+        "Empty": "비어있음오류"
+      }
+    },
+    "quopri": {
+      "alias": "인용인코딩"
+    },
+    "readline": {
+      "alias": "입력줄편집"
+    },
+    "reprlib": {
+      "alias": "축약표현"
+    },
+    "resource": {
+      "alias": "자원관리"
+    },
+    "rlcompleter": {
+      "alias": "입력자동완성"
+    },
+    "runpy": {
+      "alias": "모듈실행"
+    },
+    "sched": {
+      "alias": "예약실행"
+    },
+    "secrets": {
+      "alias": "보안난수",
+      "members": {
+        "choice": "고르기",
+        "randbelow": "미만난수",
+        "token_hex": "십육진토큰",
+        "token_urlsafe": "주소안전토큰",
+        "compare_digest": "상수시간비교"
+      }
+    },
+    "select": {
+      "alias": "입출력선택"
+    },
+    "selectors": {
+      "alias": "입출력선택도구"
+    },
+    "shelve": {
+      "alias": "객체저장소"
+    },
+    "shlex": {
+      "alias": "셸문법해석"
+    },
+    "shutil": {
+      "alias": "파일작업",
+      "members": {
+        "copy": "복사",
+        "copy2": "정보포함복사",
+        "copytree": "디렉터리복사",
+        "move": "이동",
+        "rmtree": "디렉터리삭제",
+        "which": "실행파일찾기",
+        "make_archive": "압축만들기",
+        "unpack_archive": "압축풀기"
+      }
+    },
+    "signal": {
+      "alias": "신호처리"
+    },
+    "site": {
+      "alias": "설치환경"
+    },
+    "smtplib": {
+      "alias": "우편보내기"
+    },
+    "socket": {
+      "alias": "소켓",
+      "members": {
+        "socket": "소켓",
+        "create_connection": "연결만들기",
+        "gethostname": "호스트명",
+        "AF_INET": "인터넷주소형",
+        "SOCK_STREAM": "흐름형"
+      }
+    },
+    "socketserver": {
+      "alias": "소켓서버"
+    },
+    "sqlite3": {
+      "alias": "경량데이터베이스",
+      "members": {
+        "connect": "연결",
+        "Connection": "연결형",
+        "Row": "행"
+      }
+    },
+    "sre_compile": {
+      "alias": "구형정규식컴파일"
+    },
+    "sre_constants": {
+      "alias": "구형정규식상수"
+    },
+    "sre_parse": {
+      "alias": "구형정규식해석"
+    },
+    "ssl": {
+      "alias": "보안통신"
+    },
+    "stat": {
+      "alias": "파일상태"
+    },
+    "string": {
+      "alias": "문자열도구"
+    },
+    "stringprep": {
+      "alias": "문자열준비"
+    },
+    "struct": {
+      "alias": "이진구조"
+    },
+    "subprocess": {
+      "alias": "하위프로세스",
+      "members": {
+        "run": "실행",
+        "Popen": "프로세스열기",
+        "PIPE": "파이프",
+        "DEVNULL": "버리기",
+        "CalledProcessError": "프로세스실패오류"
+      }
+    },
+    "symtable": {
+      "alias": "기호표"
+    },
+    "sysconfig": {
+      "alias": "파이썬설정"
+    },
+    "syslog": {
+      "alias": "시스템기록"
+    },
+    "tabnanny": {
+      "alias": "들여쓰기검사"
+    },
+    "tarfile": {
+      "alias": "타르파일",
+      "members": {
+        "open": "열기",
+        "is_tarfile": "타르파일여부"
+      }
+    },
+    "tempfile": {
+      "alias": "임시파일",
+      "members": {
+        "TemporaryDirectory": "임시디렉터리",
+        "NamedTemporaryFile": "이름있는임시파일",
+        "TemporaryFile": "임시파일",
+        "gettempdir": "임시경로"
+      }
+    },
+    "termios": {
+      "alias": "터미널입출력"
+    },
+    "textwrap": {
+      "alias": "글줄정리",
+      "members": {
+        "dedent": "공통들여쓰기제거",
+        "indent": "들여쓰기",
+        "wrap": "줄나누기",
+        "fill": "줄맞춤",
+        "shorten": "줄이기"
+      }
+    },
+    "this": {
+      "alias": "파이썬철학"
+    },
+    "threading": {
+      "alias": "스레드",
+      "members": {
+        "Thread": "스레드",
+        "Lock": "잠금",
+        "Event": "이벤트",
+        "current_thread": "현재스레드"
+      }
+    },
+    "timeit": {
+      "alias": "시간측정"
+    },
+    "tkinter": {
+      "alias": "티케이화면"
+    },
+    "token": {
+      "alias": "토큰"
+    },
+    "tokenize": {
+      "alias": "토큰분석"
+    },
+    "tomllib": {
+      "alias": "톰엘",
+      "members": {
+        "load": "읽기",
+        "loads": "해독",
+        "TOMLDecodeError": "해독오류"
+      }
+    },
+    "trace": {
+      "alias": "실행추적"
+    },
+    "traceback": {
+      "alias": "오류추적"
+    },
+    "tracemalloc": {
+      "alias": "메모리추적"
+    },
+    "tty": {
+      "alias": "터미널모드"
+    },
+    "turtle": {
+      "alias": "거북이"
+    },
+    "turtledemo": {
+      "alias": "거북이예제"
+    },
+    "types": {
+      "alias": "형도구"
+    },
+    "unicodedata": {
+      "alias": "유니코드자료",
+      "members": {
+        "normalize": "정규화",
+        "name": "이름",
+        "category": "범주"
+      }
+    },
+    "unittest": {
+      "alias": "단위시험"
+    },
+    "urllib": {
+      "alias": "주소도구"
+    },
+    "urllib.request": {
+      "alias": "주소도구.요청",
+      "members": {
+        "urlopen": "주소열기",
+        "Request": "요청",
+        "urlretrieve": "내려받기"
+      }
+    },
+    "urllib.parse": {
+      "alias": "주소도구.해석",
+      "members": {
+        "urlparse": "주소해석",
+        "urlencode": "질의인코딩",
+        "quote": "인코딩",
+        "unquote": "해독",
+        "urljoin": "주소합치기"
+      }
+    },
+    "urllib.error": {
+      "alias": "주소도구.오류"
+    },
+    "uuid": {
+      "alias": "고유식별자",
+      "members": {
+        "uuid4": "무작위식별자",
+        "UUID": "식별자"
+      }
+    },
+    "venv": {
+      "alias": "가상환경"
+    },
+    "warnings": {
+      "alias": "경고도구"
+    },
+    "wave": {
+      "alias": "음성파일"
+    },
+    "weakref": {
+      "alias": "약한참조"
+    },
+    "webbrowser": {
+      "alias": "웹브라우저"
+    },
+    "winreg": {
+      "alias": "윈도우레지스트리"
+    },
+    "winsound": {
+      "alias": "윈도우소리"
+    },
+    "wsgiref": {
+      "alias": "웹서버규약"
+    },
+    "xml": {
+      "alias": "엑스엠엘"
+    },
+    "xml.etree.ElementTree": {
+      "alias": "엑스엠엘.원소트리"
+    },
+    "xmlrpc": {
+      "alias": "엑스엠엘원격호출"
+    },
+    "zipapp": {
+      "alias": "압축앱"
+    },
+    "zipfile": {
+      "alias": "집파일",
+      "members": {
+        "ZipFile": "집파일",
+        "is_zipfile": "집파일여부"
+      }
+    },
+    "zipimport": {
+      "alias": "압축불러오기"
+    },
+    "zlib": {
+      "alias": "제트압축"
+    },
+    "zoneinfo": {
+      "alias": "시간대정보",
+      "members": {
+        "ZoneInfo": "시간대",
+        "available_timezones": "시간대목록"
+      }
+    },
+    "annotationlib": {
+      "alias": "주석해석"
+    },
+    "compression": {
+      "alias": "압축도구"
+    },
+    "compression.zstd": {
+      "alias": "압축도구.제트표준"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "hangeul-python",
+  "displayName": "한글 파이썬",
+  "description": "한글 파이썬 문법 강조, 번역 사전 자동완성, 문법 검사와 실행",
+  "version": "0.1.0",
+  "publisher": "gamparda",
+  "license": "MIT",
+  "engines": {"vscode": "^1.90.0"},
+  "categories": ["Programming Languages"],
+  "main": "./extension.js",
+  "repository": {"type": "git", "url": "https://github.com/gamparda/hangeul-python"},
+  "contributes": {
+    "languages": [{
+      "id": "hangeul-python", "aliases": ["한글 파이썬", "Hangeul Python"],
+      "extensions": [".han", ".한"], "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hangeul-python", "scopeName": "source.hangeul-python",
+      "path": "./syntaxes/hangeul.tmLanguage.json"
+    }],
+    "commands": [
+      {"command": "hangeulPython.run", "title": "한글 파이썬: 현재 파일 실행"},
+      {"command": "hangeulPython.check", "title": "한글 파이썬: 현재 파일 문법 검사"}
+    ],
+    "configuration": {
+      "title": "한글 파이썬",
+      "properties": {
+        "hangeulPython.pythonPath": {
+          "type": "string", "default": "python",
+          "description": "hangeul-python을 설치한 Python 실행 파일 경로"
+        },
+        "hangeulPython.checkOnSave": {
+          "type": "boolean", "default": true, "description": "저장 시 문법 검사"
+        }
+      }
+    },
+    "snippets": [{"language": "hangeul-python", "path": "./snippets.json"}]
+  }
+}

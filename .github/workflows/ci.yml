@@ -1,0 +1,45 @@
+name: CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.13", "3.14"]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[dev,data]"
+      - run: python -m ruff check .
+      - run: python tools/generate_reference.py --check
+      - run: python -m pytest
+      - run: python -m hangeul_python dictionary --validate
+      - run: python -m hangeul_python run examples/hello.han
+      - run: python -m hangeul_python run examples/standard_library.han
+      - run: python -m hangeul_python run examples/classes.han
+      - run: python -m hangeul_python run examples/module_import.han
+      - run: python -m hangeul_python run examples/async.han
+      - run: python -m hangeul_python run examples/data.han
+      - run: python -m build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: packages-${{ matrix.os }}-${{ matrix.python }}
+          path: dist/*
+  editor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --check editors/vscode/extension.js

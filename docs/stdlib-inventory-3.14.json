@@ -1,0 +1,1788 @@
+{
+  "python_version": "3.14",
+  "scope": "sys.stdlib_module_names; 모듈 단위, 하위모듈 제외",
+  "modules": [
+    {
+      "python": "__future__",
+      "korean": "__미래__",
+      "registered_members": 1,
+      "status": "partial_api"
+    },
+    {
+      "python": "_abc",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_aix_support",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_android_support",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_apple_support",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_ast",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_ast_unparse",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_asyncio",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_bisect",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_blake2",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_bz2",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs_cn",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs_hk",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs_iso2022",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs_jp",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs_kr",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_codecs_tw",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_collections",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_collections_abc",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_colorize",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_compat_pickle",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_contextvars",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_csv",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_ctypes",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_curses",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_curses_panel",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_datetime",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_dbm",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_decimal",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_elementtree",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_frozen_importlib",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_frozen_importlib_external",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_functools",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_gdbm",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_hashlib",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_heapq",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_hmac",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_imp",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_interpchannels",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_interpqueues",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_interpreters",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_io",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_ios_support",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_json",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_locale",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_lsprof",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_lzma",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_markupbase",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_md5",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_multibytecodec",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_multiprocessing",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_opcode",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_opcode_metadata",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_operator",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_osx_support",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_overlapped",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_pickle",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_posixshmem",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_posixsubprocess",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_py_abc",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_py_warnings",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_pydatetime",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_pydecimal",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_pyio",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_pylong",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_pyrepl",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_queue",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_random",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_remote_debugging",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_scproxy",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sha1",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sha2",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sha3",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_signal",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sitebuiltins",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_socket",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sqlite3",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sre",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_ssl",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_stat",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_statistics",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_string",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_strptime",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_struct",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_suggestions",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_symtable",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_sysconfig",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_thread",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_threading_local",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_tkinter",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_tokenize",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_tracemalloc",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_types",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_typing",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_uuid",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_warnings",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_weakref",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_weakrefset",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_winapi",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_wmi",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_zoneinfo",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "_zstd",
+      "korean": null,
+      "registered_members": 0,
+      "status": "internal"
+    },
+    {
+      "python": "abc",
+      "korean": "추상기반",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "annotationlib",
+      "korean": "주석해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "antigravity",
+      "korean": "반중력",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "argparse",
+      "korean": "인자해석",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "array",
+      "korean": "배열도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "ast",
+      "korean": "구문트리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "asyncio",
+      "korean": "비동기도구",
+      "registered_members": 9,
+      "status": "partial_api"
+    },
+    {
+      "python": "atexit",
+      "korean": "종료처리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "base64",
+      "korean": "육십사진법",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "bdb",
+      "korean": "기본디버거",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "binascii",
+      "korean": "이진아스키",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "bisect",
+      "korean": "이진탐색",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "builtins",
+      "korean": "내장도구",
+      "registered_members": 148,
+      "status": "partial_api"
+    },
+    {
+      "python": "bz2",
+      "korean": "비지압축",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "cProfile",
+      "korean": "시프로파일",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "calendar",
+      "korean": "달력",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "cmath",
+      "korean": "복소수학",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "cmd",
+      "korean": "명령셸",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "code",
+      "korean": "대화코드",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "codecs",
+      "korean": "인코딩도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "codeop",
+      "korean": "코드완성판정",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "collections",
+      "korean": "자료모음",
+      "registered_members": 6,
+      "status": "partial_api"
+    },
+    {
+      "python": "colorsys",
+      "korean": "색상변환",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "compileall",
+      "korean": "전체컴파일",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "compression",
+      "korean": "압축도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "concurrent",
+      "korean": "동시실행",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "configparser",
+      "korean": "설정해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "contextlib",
+      "korean": "문맥도구",
+      "registered_members": 7,
+      "status": "partial_api"
+    },
+    {
+      "python": "contextvars",
+      "korean": "문맥변수",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "copy",
+      "korean": "복사도구",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "copyreg",
+      "korean": "복사등록",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "csv",
+      "korean": "쉼표파일",
+      "registered_members": 4,
+      "status": "partial_api"
+    },
+    {
+      "python": "ctypes",
+      "korean": "시자료형",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "curses",
+      "korean": "터미널화면",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "dataclasses",
+      "korean": "자료클래스",
+      "registered_members": 6,
+      "status": "partial_api"
+    },
+    {
+      "python": "datetime",
+      "korean": "날짜시간",
+      "registered_members": 6,
+      "status": "partial_api"
+    },
+    {
+      "python": "dbm",
+      "korean": "단순데이터베이스",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "decimal",
+      "korean": "십진도구",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "difflib",
+      "korean": "차이비교",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "dis",
+      "korean": "바이트코드해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "doctest",
+      "korean": "문서시험",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "email",
+      "korean": "전자우편",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "encodings",
+      "korean": "인코딩모음",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "ensurepip",
+      "korean": "패키지도구설치",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "enum",
+      "korean": "열거도구",
+      "registered_members": 6,
+      "status": "partial_api"
+    },
+    {
+      "python": "errno",
+      "korean": "오류번호",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "faulthandler",
+      "korean": "장애처리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "fcntl",
+      "korean": "파일제어",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "filecmp",
+      "korean": "파일비교",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "fileinput",
+      "korean": "파일입력",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "fnmatch",
+      "korean": "파일명일치",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "fractions",
+      "korean": "분수도구",
+      "registered_members": 1,
+      "status": "partial_api"
+    },
+    {
+      "python": "ftplib",
+      "korean": "파일전송",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "functools",
+      "korean": "함수도구",
+      "registered_members": 8,
+      "status": "partial_api"
+    },
+    {
+      "python": "gc",
+      "korean": "메모리수거",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "genericpath",
+      "korean": "공통경로",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "getopt",
+      "korean": "옵션얻기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "getpass",
+      "korean": "암호입력",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "gettext",
+      "korean": "다국어문구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "glob",
+      "korean": "경로패턴",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "graphlib",
+      "korean": "그래프도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "grp",
+      "korean": "그룹정보",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "gzip",
+      "korean": "지집압축",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "hashlib",
+      "korean": "해시도구",
+      "registered_members": 4,
+      "status": "partial_api"
+    },
+    {
+      "python": "heapq",
+      "korean": "힙도구",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "hmac",
+      "korean": "메시지인증",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "html",
+      "korean": "하이퍼문서",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "http",
+      "korean": "웹통신",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "idlelib",
+      "korean": "아이들편집기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "imaplib",
+      "korean": "우편접근",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "importlib",
+      "korean": "모듈적재",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "inspect",
+      "korean": "코드조사",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "io",
+      "korean": "입출력",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "ipaddress",
+      "korean": "인터넷주소",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "itertools",
+      "korean": "반복도구",
+      "registered_members": 13,
+      "status": "partial_api"
+    },
+    {
+      "python": "json",
+      "korean": "제이슨",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "keyword",
+      "korean": "예약어도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "linecache",
+      "korean": "줄캐시",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "locale",
+      "korean": "지역설정",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "logging",
+      "korean": "기록도구",
+      "registered_members": 10,
+      "status": "partial_api"
+    },
+    {
+      "python": "lzma",
+      "korean": "엘지엠에이압축",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "mailbox",
+      "korean": "우편함",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "marshal",
+      "korean": "내부직렬화",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "math",
+      "korean": "수학",
+      "registered_members": 38,
+      "status": "partial_api"
+    },
+    {
+      "python": "mimetypes",
+      "korean": "매체유형",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "mmap",
+      "korean": "메모리매핑",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "modulefinder",
+      "korean": "모듈찾기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "msvcrt",
+      "korean": "윈도우시실행기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "multiprocessing",
+      "korean": "다중프로세스",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "netrc",
+      "korean": "네트워크인증정보",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "nt",
+      "korean": "윈도우내부",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "ntpath",
+      "korean": "윈도우경로도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "nturl2path",
+      "korean": "윈도우주소경로",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "numbers",
+      "korean": "수치기반",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "opcode",
+      "korean": "명령코드",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "operator",
+      "korean": "연산도구",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "optparse",
+      "korean": "구형옵션해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "os",
+      "korean": "운영체제",
+      "registered_members": 15,
+      "status": "partial_api"
+    },
+    {
+      "python": "pathlib",
+      "korean": "경로도구",
+      "registered_members": 4,
+      "status": "partial_api"
+    },
+    {
+      "python": "pdb",
+      "korean": "파이썬디버거",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pickle",
+      "korean": "객체직렬화",
+      "registered_members": 4,
+      "status": "partial_api"
+    },
+    {
+      "python": "pickletools",
+      "korean": "직렬화조사",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pkgutil",
+      "korean": "패키지도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "platform",
+      "korean": "실행환경",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "plistlib",
+      "korean": "속성목록파일",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "poplib",
+      "korean": "우편받기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "posix",
+      "korean": "포직스내부",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "posixpath",
+      "korean": "포직스경로도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pprint",
+      "korean": "보기좋은출력",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "profile",
+      "korean": "성능분석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pstats",
+      "korean": "성능통계",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pty",
+      "korean": "가상터미널",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pwd",
+      "korean": "사용자정보",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "py_compile",
+      "korean": "파일컴파일",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pyclbr",
+      "korean": "클래스찾기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pydoc",
+      "korean": "파이썬문서",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pydoc_data",
+      "korean": "파이썬문서자료",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "pyexpat",
+      "korean": "엑스엠엘내부해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "queue",
+      "korean": "대기열도구",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "quopri",
+      "korean": "인용인코딩",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "random",
+      "korean": "무작위",
+      "registered_members": 10,
+      "status": "partial_api"
+    },
+    {
+      "python": "re",
+      "korean": "정규식",
+      "registered_members": 15,
+      "status": "partial_api"
+    },
+    {
+      "python": "readline",
+      "korean": "입력줄편집",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "reprlib",
+      "korean": "축약표현",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "resource",
+      "korean": "자원관리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "rlcompleter",
+      "korean": "입력자동완성",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "runpy",
+      "korean": "모듈실행",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "sched",
+      "korean": "예약실행",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "secrets",
+      "korean": "보안난수",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "select",
+      "korean": "입출력선택",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "selectors",
+      "korean": "입출력선택도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "shelve",
+      "korean": "객체저장소",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "shlex",
+      "korean": "셸문법해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "shutil",
+      "korean": "파일작업",
+      "registered_members": 8,
+      "status": "partial_api"
+    },
+    {
+      "python": "signal",
+      "korean": "신호처리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "site",
+      "korean": "설치환경",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "smtplib",
+      "korean": "우편보내기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "socket",
+      "korean": "소켓",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "socketserver",
+      "korean": "소켓서버",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "sqlite3",
+      "korean": "경량데이터베이스",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "sre_compile",
+      "korean": "구형정규식컴파일",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "sre_constants",
+      "korean": "구형정규식상수",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "sre_parse",
+      "korean": "구형정규식해석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "ssl",
+      "korean": "보안통신",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "stat",
+      "korean": "파일상태",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "statistics",
+      "korean": "통계",
+      "registered_members": 12,
+      "status": "partial_api"
+    },
+    {
+      "python": "string",
+      "korean": "문자열도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "stringprep",
+      "korean": "문자열준비",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "struct",
+      "korean": "이진구조",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "subprocess",
+      "korean": "하위프로세스",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "symtable",
+      "korean": "기호표",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "sys",
+      "korean": "시스템",
+      "registered_members": 11,
+      "status": "partial_api"
+    },
+    {
+      "python": "sysconfig",
+      "korean": "파이썬설정",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "syslog",
+      "korean": "시스템기록",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tabnanny",
+      "korean": "들여쓰기검사",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tarfile",
+      "korean": "타르파일",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "tempfile",
+      "korean": "임시파일",
+      "registered_members": 4,
+      "status": "partial_api"
+    },
+    {
+      "python": "termios",
+      "korean": "터미널입출력",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "textwrap",
+      "korean": "글줄정리",
+      "registered_members": 5,
+      "status": "partial_api"
+    },
+    {
+      "python": "this",
+      "korean": "파이썬철학",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "threading",
+      "korean": "스레드",
+      "registered_members": 4,
+      "status": "partial_api"
+    },
+    {
+      "python": "time",
+      "korean": "시간",
+      "registered_members": 8,
+      "status": "partial_api"
+    },
+    {
+      "python": "timeit",
+      "korean": "시간측정",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tkinter",
+      "korean": "티케이화면",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "token",
+      "korean": "토큰",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tokenize",
+      "korean": "토큰분석",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tomllib",
+      "korean": "톰엘",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "trace",
+      "korean": "실행추적",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "traceback",
+      "korean": "오류추적",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tracemalloc",
+      "korean": "메모리추적",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "tty",
+      "korean": "터미널모드",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "turtle",
+      "korean": "거북이",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "turtledemo",
+      "korean": "거북이예제",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "types",
+      "korean": "형도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "typing",
+      "korean": "자료형도구",
+      "registered_members": 14,
+      "status": "partial_api"
+    },
+    {
+      "python": "unicodedata",
+      "korean": "유니코드자료",
+      "registered_members": 3,
+      "status": "partial_api"
+    },
+    {
+      "python": "unittest",
+      "korean": "단위시험",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "urllib",
+      "korean": "주소도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "uuid",
+      "korean": "고유식별자",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "venv",
+      "korean": "가상환경",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "warnings",
+      "korean": "경고도구",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "wave",
+      "korean": "음성파일",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "weakref",
+      "korean": "약한참조",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "webbrowser",
+      "korean": "웹브라우저",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "winreg",
+      "korean": "윈도우레지스트리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "winsound",
+      "korean": "윈도우소리",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "wsgiref",
+      "korean": "웹서버규약",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "xml",
+      "korean": "엑스엠엘",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "xmlrpc",
+      "korean": "엑스엠엘원격호출",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "zipapp",
+      "korean": "압축앱",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "zipfile",
+      "korean": "집파일",
+      "registered_members": 2,
+      "status": "partial_api"
+    },
+    {
+      "python": "zipimport",
+      "korean": "압축불러오기",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "zlib",
+      "korean": "제트압축",
+      "registered_members": 0,
+      "status": "module_alias"
+    },
+    {
+      "python": "zoneinfo",
+      "korean": "시간대정보",
+      "registered_members": 2,
+      "status": "partial_api"
+    }
+  ]
+}

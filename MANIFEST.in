@@ -1,0 +1,7 @@
+include LICENSE README.md CHANGELOG.md CONTRIBUTING.md
+recursive-include docs *.md *.json
+recursive-include examples *.han *.한
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include editors/vscode *.json *.js *.md
+include editors/vscode/LICENSE editors/vscode/.vscodeignore

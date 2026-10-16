@@ -1,0 +1,6385 @@
+[
+  {
+    "korean": "__같음__",
+    "originals": [
+      "__eq__"
+    ]
+  },
+  {
+    "korean": "__거듭제곱__",
+    "originals": [
+      "__pow__"
+    ]
+  },
+  {
+    "korean": "__경로__",
+    "originals": [
+      "__path__"
+    ]
+  },
+  {
+    "korean": "__곱하기__",
+    "originals": [
+      "__mul__"
+    ]
+  },
+  {
+    "korean": "__공개목록__",
+    "originals": [
+      "__all__"
+    ]
+  },
+  {
+    "korean": "__기반들__",
+    "originals": [
+      "__bases__"
+    ]
+  },
+  {
+    "korean": "__길이__",
+    "originals": [
+      "__len__"
+    ]
+  },
+  {
+    "korean": "__길이힌트__",
+    "originals": [
+      "__length_hint__"
+    ]
+  },
+  {
+    "korean": "__나가기__",
+    "originals": [
+      "__exit__"
+    ]
+  },
+  {
+    "korean": "__나누기__",
+    "originals": [
+      "__truediv__"
+    ]
+  },
+  {
+    "korean": "__나머지__",
+    "originals": [
+      "__mod__"
+    ]
+  },
+  {
+    "korean": "__내림__",
+    "originals": [
+      "__floor__"
+    ]
+  },
+  {
+    "korean": "__내장__",
+    "originals": [
+      "__builtins__"
+    ]
+  },
+  {
+    "korean": "__논리값__",
+    "originals": [
+      "__bool__"
+    ]
+  },
+  {
+    "korean": "__누락__",
+    "originals": [
+      "__missing__"
+    ]
+  },
+  {
+    "korean": "__다름__",
+    "originals": [
+      "__ne__"
+    ]
+  },
+  {
+    "korean": "__다음__",
+    "originals": [
+      "__next__"
+    ]
+  },
+  {
+    "korean": "__대기__",
+    "originals": [
+      "__await__"
+    ]
+  },
+  {
+    "korean": "__더하기__",
+    "originals": [
+      "__add__"
+    ]
+  },
+  {
+    "korean": "__디버그__",
+    "originals": [
+      "__debug__"
+    ]
+  },
+  {
+    "korean": "__맞춤인자__",
+    "originals": [
+      "__match_args__"
+    ]
+  },
+  {
+    "korean": "__메모리크기__",
+    "originals": [
+      "__sizeof__"
+    ]
+  },
+  {
+    "korean": "__명세__",
+    "originals": [
+      "__spec__"
+    ]
+  },
+  {
+    "korean": "__모듈__",
+    "originals": [
+      "__module__"
+    ]
+  },
+  {
+    "korean": "__몫__",
+    "originals": [
+      "__floordiv__"
+    ]
+  },
+  {
+    "korean": "__몫과나머지__",
+    "originals": [
+      "__divmod__"
+    ]
+  },
+  {
+    "korean": "__문서__",
+    "originals": [
+      "__doc__"
+    ]
+  },
+  {
+    "korean": "__문자열__",
+    "originals": [
+      "__str__"
+    ]
+  },
+  {
+    "korean": "__미래__",
+    "originals": [
+      "__future__"
+    ]
+  },
+  {
+    "korean": "__바이트__",
+    "originals": [
+      "__bytes__"
+    ]
+  },
+  {
+    "korean": "__반복자__",
+    "originals": [
+      "__iter__"
+    ]
+  },
+  {
+    "korean": "__반올림__",
+    "originals": [
+      "__round__"
+    ]
+  },
+  {
+    "korean": "__버림__",
+    "originals": [
+      "__trunc__"
+    ]
+  },
+  {
+    "korean": "__복소수__",
+    "originals": [
+      "__complex__"
+    ]
+  },
+  {
+    "korean": "__비동기나가기__",
+    "originals": [
+      "__aexit__"
+    ]
+  },
+  {
+    "korean": "__비동기다음__",
+    "originals": [
+      "__anext__"
+    ]
+  },
+  {
+    "korean": "__비동기반복자__",
+    "originals": [
+      "__aiter__"
+    ]
+  },
+  {
+    "korean": "__비동기진입__",
+    "originals": [
+      "__aenter__"
+    ]
+  },
+  {
+    "korean": "__비트그리고__",
+    "originals": [
+      "__and__"
+    ]
+  },
+  {
+    "korean": "__비트또는__",
+    "originals": [
+      "__or__"
+    ]
+  },
+  {
+    "korean": "__비트반전__",
+    "originals": [
+      "__invert__"
+    ]
+  },
+  {
+    "korean": "__비트배타또는__",
+    "originals": [
+      "__xor__"
+    ]
+  },
+  {
+    "korean": "__빼기__",
+    "originals": [
+      "__sub__"
+    ]
+  },
+  {
+    "korean": "__삭제__",
+    "originals": [
+      "__delete__"
+    ]
+  },
+  {
+    "korean": "__상속순서__",
+    "originals": [
+      "__mro__"
+    ]
+  },
+  {
+    "korean": "__상태설정__",
+    "originals": [
+      "__setstate__"
+    ]
+  },
+  {
+    "korean": "__상태얻기__",
+    "originals": [
+      "__getstate__"
+    ]
+  },
+  {
+    "korean": "__색인__",
+    "originals": [
+      "__index__"
+    ]
+  },
+  {
+    "korean": "__생성__",
+    "originals": [
+      "__new__"
+    ]
+  },
+  {
+    "korean": "__생성인자얻기__",
+    "originals": [
+      "__getnewargs__"
+    ]
+  },
+  {
+    "korean": "__서식__",
+    "originals": [
+      "__format__"
+    ]
+  },
+  {
+    "korean": "__설정__",
+    "originals": [
+      "__set__"
+    ]
+  },
+  {
+    "korean": "__소멸__",
+    "originals": [
+      "__del__"
+    ]
+  },
+  {
+    "korean": "__속성목록__",
+    "originals": [
+      "__dir__"
+    ]
+  },
+  {
+    "korean": "__속성사전__",
+    "originals": [
+      "__dict__"
+    ]
+  },
+  {
+    "korean": "__속성삭제__",
+    "originals": [
+      "__delattr__"
+    ]
+  },
+  {
+    "korean": "__속성설정__",
+    "originals": [
+      "__setattr__"
+    ]
+  },
+  {
+    "korean": "__속성얻기__",
+    "originals": [
+      "__getattribute__"
+    ]
+  },
+  {
+    "korean": "__슬롯__",
+    "originals": [
+      "__slots__"
+    ]
+  },
+  {
+    "korean": "__실수__",
+    "originals": [
+      "__float__"
+    ]
+  },
+  {
+    "korean": "__양수__",
+    "originals": [
+      "__pos__"
+    ]
+  },
+  {
+    "korean": "__얻기__",
+    "originals": [
+      "__get__"
+    ]
+  },
+  {
+    "korean": "__없는속성얻기__",
+    "originals": [
+      "__getattr__"
+    ]
+  },
+  {
+    "korean": "__역거듭제곱__",
+    "originals": [
+      "__rpow__"
+    ]
+  },
+  {
+    "korean": "__역곱하기__",
+    "originals": [
+      "__rmul__"
+    ]
+  },
+  {
+    "korean": "__역나누기__",
+    "originals": [
+      "__rtruediv__"
+    ]
+  },
+  {
+    "korean": "__역나머지__",
+    "originals": [
+      "__rmod__"
+    ]
+  },
+  {
+    "korean": "__역더하기__",
+    "originals": [
+      "__radd__"
+    ]
+  },
+  {
+    "korean": "__역몫__",
+    "originals": [
+      "__rfloordiv__"
+    ]
+  },
+  {
+    "korean": "__역몫과나머지__",
+    "originals": [
+      "__rdivmod__"
+    ]
+  },
+  {
+    "korean": "__역비트그리고__",
+    "originals": [
+      "__rand__"
+    ]
+  },
+  {
+    "korean": "__역비트또는__",
+    "originals": [
+      "__ror__"
+    ]
+  },
+  {
+    "korean": "__역비트배타또는__",
+    "originals": [
+      "__rxor__"
+    ]
+  },
+  {
+    "korean": "__역빼기__",
+    "originals": [
+      "__rsub__"
+    ]
+  },
+  {
+    "korean": "__역순반복__",
+    "originals": [
+      "__reversed__"
+    ]
+  },
+  {
+    "korean": "__역오른쪽이동__",
+    "originals": [
+      "__rrshift__"
+    ]
+  },
+  {
+    "korean": "__역왼쪽이동__",
+    "originals": [
+      "__rlshift__"
+    ]
+  },
+  {
+    "korean": "__역행렬곱__",
+    "originals": [
+      "__rmatmul__"
+    ]
+  },
+  {
+    "korean": "__오른쪽이동__",
+    "originals": [
+      "__rshift__"
+    ]
+  },
+  {
+    "korean": "__올림__",
+    "originals": [
+      "__ceil__"
+    ]
+  },
+  {
+    "korean": "__왼쪽이동__",
+    "originals": [
+      "__lshift__"
+    ]
+  },
+  {
+    "korean": "__음수__",
+    "originals": [
+      "__neg__"
+    ]
+  },
+  {
+    "korean": "__이름__",
+    "originals": [
+      "__name__"
+    ]
+  },
+  {
+    "korean": "__이름설정__",
+    "originals": [
+      "__set_name__"
+    ]
+  },
+  {
+    "korean": "__인스턴스확인__",
+    "originals": [
+      "__instancecheck__"
+    ]
+  },
+  {
+    "korean": "__작거나같음__",
+    "originals": [
+      "__le__"
+    ]
+  },
+  {
+    "korean": "__작음__",
+    "originals": [
+      "__lt__"
+    ]
+  },
+  {
+    "korean": "__적재기__",
+    "originals": [
+      "__loader__"
+    ]
+  },
+  {
+    "korean": "__전체이름__",
+    "originals": [
+      "__qualname__"
+    ]
+  },
+  {
+    "korean": "__절댓값__",
+    "originals": [
+      "__abs__"
+    ]
+  },
+  {
+    "korean": "__정수__",
+    "originals": [
+      "__int__"
+    ]
+  },
+  {
+    "korean": "__제자리거듭제곱__",
+    "originals": [
+      "__ipow__"
+    ]
+  },
+  {
+    "korean": "__제자리곱하기__",
+    "originals": [
+      "__imul__"
+    ]
+  },
+  {
+    "korean": "__제자리나누기__",
+    "originals": [
+      "__itruediv__"
+    ]
+  },
+  {
+    "korean": "__제자리나머지__",
+    "originals": [
+      "__imod__"
+    ]
+  },
+  {
+    "korean": "__제자리더하기__",
+    "originals": [
+      "__iadd__"
+    ]
+  },
+  {
+    "korean": "__제자리몫__",
+    "originals": [
+      "__ifloordiv__"
+    ]
+  },
+  {
+    "korean": "__제자리비트그리고__",
+    "originals": [
+      "__iand__"
+    ]
+  },
+  {
+    "korean": "__제자리비트또는__",
+    "originals": [
+      "__ior__"
+    ]
+  },
+  {
+    "korean": "__제자리비트배타또는__",
+    "originals": [
+      "__ixor__"
+    ]
+  },
+  {
+    "korean": "__제자리빼기__",
+    "originals": [
+      "__isub__"
+    ]
+  },
+  {
+    "korean": "__제자리오른쪽이동__",
+    "originals": [
+      "__irshift__"
+    ]
+  },
+  {
+    "korean": "__제자리왼쪽이동__",
+    "originals": [
+      "__ilshift__"
+    ]
+  },
+  {
+    "korean": "__제자리행렬곱__",
+    "originals": [
+      "__imatmul__"
+    ]
+  },
+  {
+    "korean": "__주석__",
+    "originals": [
+      "__annotations__"
+    ]
+  },
+  {
+    "korean": "__준비__",
+    "originals": [
+      "__prepare__"
+    ]
+  },
+  {
+    "korean": "__진입__",
+    "originals": [
+      "__enter__"
+    ]
+  },
+  {
+    "korean": "__초기화__",
+    "originals": [
+      "__init__"
+    ]
+  },
+  {
+    "korean": "__초기화인자얻기__",
+    "originals": [
+      "__getinitargs__"
+    ]
+  },
+  {
+    "korean": "__축약__",
+    "originals": [
+      "__reduce__"
+    ]
+  },
+  {
+    "korean": "__크거나같음__",
+    "originals": [
+      "__ge__"
+    ]
+  },
+  {
+    "korean": "__클래스__",
+    "originals": [
+      "__class__"
+    ]
+  },
+  {
+    "korean": "__클래스셀__",
+    "originals": [
+      "__classcell__"
+    ]
+  },
+  {
+    "korean": "__클래스항목얻기__",
+    "originals": [
+      "__class_getitem__"
+    ]
+  },
+  {
+    "korean": "__큼__",
+    "originals": [
+      "__gt__"
+    ]
+  },
+  {
+    "korean": "__파일__",
+    "originals": [
+      "__file__"
+    ]
+  },
+  {
+    "korean": "__파일경로__",
+    "originals": [
+      "__fspath__"
+    ]
+  },
+  {
+    "korean": "__패키지__",
+    "originals": [
+      "__package__"
+    ]
+  },
+  {
+    "korean": "__포함__",
+    "originals": [
+      "__contains__"
+    ]
+  },
+  {
+    "korean": "__표현__",
+    "originals": [
+      "__repr__"
+    ]
+  },
+  {
+    "korean": "__하위클래스들__",
+    "originals": [
+      "__subclasses__"
+    ]
+  },
+  {
+    "korean": "__하위클래스연결__",
+    "originals": [
+      "__subclasshook__"
+    ]
+  },
+  {
+    "korean": "__하위클래스초기화__",
+    "originals": [
+      "__init_subclass__"
+    ]
+  },
+  {
+    "korean": "__하위클래스확인__",
+    "originals": [
+      "__subclasscheck__"
+    ]
+  },
+  {
+    "korean": "__항목삭제__",
+    "originals": [
+      "__delitem__"
+    ]
+  },
+  {
+    "korean": "__항목설정__",
+    "originals": [
+      "__setitem__"
+    ]
+  },
+  {
+    "korean": "__항목얻기__",
+    "originals": [
+      "__getitem__"
+    ]
+  },
+  {
+    "korean": "__해시__",
+    "originals": [
+      "__hash__"
+    ]
+  },
+  {
+    "korean": "__행렬곱__",
+    "originals": [
+      "__matmul__"
+    ]
+  },
+  {
+    "korean": "__호출__",
+    "originals": [
+      "__call__"
+    ]
+  },
+  {
+    "korean": "__확장생성인자얻기__",
+    "originals": [
+      "__getnewargs_ex__"
+    ]
+  },
+  {
+    "korean": "__확장축약__",
+    "originals": [
+      "__reduce_ex__"
+    ]
+  },
+  {
+    "korean": "가상터미널",
+    "originals": [
+      "pty"
+    ]
+  },
+  {
+    "korean": "가상환경",
+    "originals": [
+      "venv"
+    ]
+  },
+  {
+    "korean": "가운데맞춤",
+    "originals": [
+      "builtins.str.center"
+    ]
+  },
+  {
+    "korean": "감싸기",
+    "originals": [
+      "functools.wraps"
+    ]
+  },
+  {
+    "korean": "값들",
+    "originals": [
+      "builtins.dict.values"
+    ]
+  },
+  {
+    "korean": "값오류",
+    "originals": [
+      "ValueError",
+      "builtins.ValueError"
+    ]
+  },
+  {
+    "korean": "값정렬",
+    "originals": [
+      "pandas.core.frame.DataFrame.sort_values"
+    ]
+  },
+  {
+    "korean": "개수",
+    "originals": [
+      "builtins.list.count",
+      "builtins.str.count",
+      "builtins.tuple.count",
+      "collections.deque.count"
+    ]
+  },
+  {
+    "korean": "객체",
+    "originals": [
+      "builtins.object",
+      "object"
+    ]
+  },
+  {
+    "korean": "객체저장소",
+    "originals": [
+      "shelve"
+    ]
+  },
+  {
+    "korean": "객체직렬화",
+    "originals": [
+      "pickle"
+    ]
+  },
+  {
+    "korean": "갱신",
+    "originals": [
+      "builtins.dict.update",
+      "builtins.set.update"
+    ]
+  },
+  {
+    "korean": "거듭제곱",
+    "originals": [
+      "builtins.pow",
+      "math.pow",
+      "pow"
+    ]
+  },
+  {
+    "korean": "거르기",
+    "originals": [
+      "builtins.filter",
+      "filter"
+    ]
+  },
+  {
+    "korean": "거리",
+    "originals": [
+      "math.dist"
+    ]
+  },
+  {
+    "korean": "거북이",
+    "originals": [
+      "turtle"
+    ]
+  },
+  {
+    "korean": "거북이예제",
+    "originals": [
+      "turtledemo"
+    ]
+  },
+  {
+    "korean": "거짓",
+    "originals": [
+      "False"
+    ]
+  },
+  {
+    "korean": "검색",
+    "originals": [
+      "re.Pattern.search",
+      "re.search"
+    ]
+  },
+  {
+    "korean": "결측값",
+    "originals": [
+      "pandas.NA"
+    ]
+  },
+  {
+    "korean": "결측여부",
+    "originals": [
+      "pandas.core.series.Series.isna",
+      "pandas.isna"
+    ]
+  },
+  {
+    "korean": "결측제거",
+    "originals": [
+      "pandas.core.frame.DataFrame.dropna"
+    ]
+  },
+  {
+    "korean": "결측채우기",
+    "originals": [
+      "pandas.core.frame.DataFrame.fillna",
+      "pandas.core.series.Series.fillna"
+    ]
+  },
+  {
+    "korean": "경고",
+    "originals": [
+      "Warning",
+      "builtins.Warning",
+      "logging.warning"
+    ]
+  },
+  {
+    "korean": "경고도구",
+    "originals": [
+      "warnings"
+    ]
+  },
+  {
+    "korean": "경량데이터베이스",
+    "originals": [
+      "sqlite3"
+    ]
+  },
+  {
+    "korean": "경로",
+    "originals": [
+      "os.path",
+      "pathlib.Path"
+    ]
+  },
+  {
+    "korean": "경로구분자",
+    "originals": [
+      "os.sep"
+    ]
+  },
+  {
+    "korean": "경로도구",
+    "originals": [
+      "pathlib"
+    ]
+  },
+  {
+    "korean": "경로변경",
+    "originals": [
+      "os.chdir"
+    ]
+  },
+  {
+    "korean": "경로순회",
+    "originals": [
+      "os.walk"
+    ]
+  },
+  {
+    "korean": "경로패턴",
+    "originals": [
+      "glob"
+    ]
+  },
+  {
+    "korean": "경로합치기",
+    "originals": [
+      "pathlib.PurePath.joinpath"
+    ]
+  },
+  {
+    "korean": "경우",
+    "originals": [
+      "case"
+    ]
+  },
+  {
+    "korean": "계속",
+    "originals": [
+      "continue"
+    ]
+  },
+  {
+    "korean": "계속세기",
+    "originals": [
+      "itertools.count"
+    ]
+  },
+  {
+    "korean": "계수기",
+    "originals": [
+      "collections.Counter"
+    ]
+  },
+  {
+    "korean": "계승",
+    "originals": [
+      "math.factorial"
+    ]
+  },
+  {
+    "korean": "고르기",
+    "originals": [
+      "random.Random.choice",
+      "random.choice",
+      "secrets.choice"
+    ]
+  },
+  {
+    "korean": "고유값",
+    "originals": [
+      "pandas.core.series.Series.unique"
+    ]
+  },
+  {
+    "korean": "고유값검사",
+    "originals": [
+      "enum.unique"
+    ]
+  },
+  {
+    "korean": "고유식별자",
+    "originals": [
+      "uuid"
+    ]
+  },
+  {
+    "korean": "고정집합",
+    "originals": [
+      "builtins.frozenset",
+      "frozenset"
+    ]
+  },
+  {
+    "korean": "곱",
+    "originals": [
+      "math.prod"
+    ]
+  },
+  {
+    "korean": "곱집합",
+    "originals": [
+      "itertools.product"
+    ]
+  },
+  {
+    "korean": "곱하기",
+    "originals": [
+      "operator.mul"
+    ]
+  },
+  {
+    "korean": "공백여부",
+    "originals": [
+      "builtins.str.isspace"
+    ]
+  },
+  {
+    "korean": "공백제거",
+    "originals": [
+      "builtins.str.strip"
+    ]
+  },
+  {
+    "korean": "공통경로",
+    "originals": [
+      "genericpath"
+    ]
+  },
+  {
+    "korean": "공통들여쓰기제거",
+    "originals": [
+      "textwrap.dedent"
+    ]
+  },
+  {
+    "korean": "교집합",
+    "originals": [
+      "builtins.set.intersection"
+    ]
+  },
+  {
+    "korean": "교집합갱신",
+    "originals": [
+      "builtins.set.intersection_update"
+    ]
+  },
+  {
+    "korean": "교체",
+    "originals": [
+      "copy.replace",
+      "dataclasses.replace",
+      "datetime.date.replace",
+      "pathlib.Path.replace"
+    ]
+  },
+  {
+    "korean": "구간",
+    "originals": [
+      "re.Match.span"
+    ]
+  },
+  {
+    "korean": "구문트리",
+    "originals": [
+      "ast"
+    ]
+  },
+  {
+    "korean": "구성요소",
+    "originals": [
+      "pathlib.PurePath.parts"
+    ]
+  },
+  {
+    "korean": "구현안됨",
+    "originals": [
+      "NotImplemented",
+      "builtins.NotImplemented"
+    ]
+  },
+  {
+    "korean": "구형옵션해석",
+    "originals": [
+      "optparse"
+    ]
+  },
+  {
+    "korean": "구형정규식상수",
+    "originals": [
+      "sre_constants"
+    ]
+  },
+  {
+    "korean": "구형정규식컴파일",
+    "originals": [
+      "sre_compile"
+    ]
+  },
+  {
+    "korean": "구형정규식해석",
+    "originals": [
+      "sre_parse"
+    ]
+  },
+  {
+    "korean": "권한오류",
+    "originals": [
+      "PermissionError",
+      "builtins.PermissionError"
+    ]
+  },
+  {
+    "korean": "규약",
+    "originals": [
+      "typing.Protocol"
+    ]
+  },
+  {
+    "korean": "균등난수",
+    "originals": [
+      "random.Random.uniform",
+      "random.uniform"
+    ]
+  },
+  {
+    "korean": "균등수열",
+    "originals": [
+      "numpy.linspace"
+    ]
+  },
+  {
+    "korean": "그래프도구",
+    "originals": [
+      "graphlib"
+    ]
+  },
+  {
+    "korean": "그룹",
+    "originals": [
+      "re.Match.group"
+    ]
+  },
+  {
+    "korean": "그룹들",
+    "originals": [
+      "re.Match.groups"
+    ]
+  },
+  {
+    "korean": "그룹사전",
+    "originals": [
+      "re.Match.groupdict"
+    ]
+  },
+  {
+    "korean": "그룹정보",
+    "originals": [
+      "grp"
+    ]
+  },
+  {
+    "korean": "그리고",
+    "originals": [
+      "and"
+    ]
+  },
+  {
+    "korean": "근사같음",
+    "originals": [
+      "math.isclose"
+    ]
+  },
+  {
+    "korean": "글줄정리",
+    "originals": [
+      "textwrap"
+    ]
+  },
+  {
+    "korean": "기계",
+    "originals": [
+      "platform.machine"
+    ]
+  },
+  {
+    "korean": "기록기얻기",
+    "originals": [
+      "logging.getLogger"
+    ]
+  },
+  {
+    "korean": "기록도구",
+    "originals": [
+      "logging"
+    ]
+  },
+  {
+    "korean": "기본디버거",
+    "originals": [
+      "bdb"
+    ]
+  },
+  {
+    "korean": "기본사전",
+    "originals": [
+      "collections.defaultdict"
+    ]
+  },
+  {
+    "korean": "기본설정",
+    "originals": [
+      "builtins.dict.setdefault",
+      "logging.basicConfig"
+    ]
+  },
+  {
+    "korean": "기여자",
+    "originals": [
+      "builtins.credits",
+      "credits"
+    ]
+  },
+  {
+    "korean": "기호표",
+    "originals": [
+      "symtable"
+    ]
+  },
+  {
+    "korean": "긴짝짓기",
+    "originals": [
+      "itertools.zip_longest"
+    ]
+  },
+  {
+    "korean": "길이",
+    "originals": [
+      "builtins.len",
+      "len"
+    ]
+  },
+  {
+    "korean": "깊은복사",
+    "originals": [
+      "copy.deepcopy"
+    ]
+  },
+  {
+    "korean": "꺼내기",
+    "originals": [
+      "builtins.bytearray.pop",
+      "builtins.dict.pop",
+      "builtins.list.pop",
+      "builtins.set.pop",
+      "collections.deque.pop",
+      "heapq.heappop"
+    ]
+  },
+  {
+    "korean": "끊어진파이프오류",
+    "originals": [
+      "BrokenPipeError",
+      "builtins.BrokenPipeError"
+    ]
+  },
+  {
+    "korean": "끝",
+    "originals": [
+      "re.Match.end"
+    ]
+  },
+  {
+    "korean": "끝일치",
+    "originals": [
+      "builtins.str.endswith"
+    ]
+  },
+  {
+    "korean": "나가기",
+    "originals": [
+      "builtins.exit",
+      "exit"
+    ]
+  },
+  {
+    "korean": "나누기",
+    "originals": [
+      "builtins.str.split",
+      "re.Pattern.split",
+      "re.split"
+    ]
+  },
+  {
+    "korean": "난수",
+    "originals": [
+      "random.Random.random",
+      "random.random"
+    ]
+  },
+  {
+    "korean": "난수기",
+    "originals": [
+      "random.Random"
+    ]
+  },
+  {
+    "korean": "날짜",
+    "originals": [
+      "datetime.date",
+      "datetime.datetime.date"
+    ]
+  },
+  {
+    "korean": "날짜시각",
+    "originals": [
+      "datetime.datetime"
+    ]
+  },
+  {
+    "korean": "날짜시간",
+    "originals": [
+      "datetime"
+    ]
+  },
+  {
+    "korean": "내려받기",
+    "originals": [
+      "urllib.request.urlretrieve"
+    ]
+  },
+  {
+    "korean": "내림",
+    "originals": [
+      "math.floor"
+    ]
+  },
+  {
+    "korean": "내부직렬화",
+    "originals": [
+      "marshal"
+    ]
+  },
+  {
+    "korean": "내장도구",
+    "originals": [
+      "builtins"
+    ]
+  },
+  {
+    "korean": "내적",
+    "originals": [
+      "numpy.dot"
+    ]
+  },
+  {
+    "korean": "넘침오류",
+    "originals": [
+      "OverflowError",
+      "builtins.OverflowError"
+    ]
+  },
+  {
+    "korean": "넘파이",
+    "originals": [
+      "numpy"
+    ]
+  },
+  {
+    "korean": "넣기",
+    "originals": [
+      "heapq.heappush"
+    ]
+  },
+  {
+    "korean": "네트워크인증정보",
+    "originals": [
+      "netrc"
+    ]
+  },
+  {
+    "korean": "논리값",
+    "originals": [
+      "bool",
+      "builtins.bool"
+    ]
+  },
+  {
+    "korean": "누적",
+    "originals": [
+      "itertools.accumulate"
+    ]
+  },
+  {
+    "korean": "누적적용",
+    "originals": [
+      "functools.reduce"
+    ]
+  },
+  {
+    "korean": "다국어문구",
+    "originals": [
+      "gettext"
+    ]
+  },
+  {
+    "korean": "다시불러오기",
+    "originals": [
+      "importlib.reload"
+    ]
+  },
+  {
+    "korean": "다음",
+    "originals": [
+      "builtins.next",
+      "next"
+    ]
+  },
+  {
+    "korean": "다중정의",
+    "originals": [
+      "typing.overload"
+    ]
+  },
+  {
+    "korean": "다중프로세스",
+    "originals": [
+      "multiprocessing"
+    ]
+  },
+  {
+    "korean": "단순데이터베이스",
+    "originals": [
+      "dbm"
+    ]
+  },
+  {
+    "korean": "단언",
+    "originals": [
+      "assert"
+    ]
+  },
+  {
+    "korean": "단언오류",
+    "originals": [
+      "AssertionError",
+      "builtins.AssertionError"
+    ]
+  },
+  {
+    "korean": "단위시험",
+    "originals": [
+      "unittest"
+    ]
+  },
+  {
+    "korean": "단일분배",
+    "originals": [
+      "functools.singledispatch"
+    ]
+  },
+  {
+    "korean": "단조시각",
+    "originals": [
+      "time.monotonic"
+    ]
+  },
+  {
+    "korean": "닫기",
+    "originals": [
+      "_io._IOBase.close"
+    ]
+  },
+  {
+    "korean": "닫기보장",
+    "originals": [
+      "contextlib.closing"
+    ]
+  },
+  {
+    "korean": "닫힘",
+    "originals": [
+      "_io._IOBase.closed"
+    ]
+  },
+  {
+    "korean": "달력",
+    "originals": [
+      "calendar"
+    ]
+  },
+  {
+    "korean": "대기",
+    "originals": [
+      "await",
+      "concurrent.futures.wait"
+    ]
+  },
+  {
+    "korean": "대기열",
+    "originals": [
+      "asyncio.Queue",
+      "queue.Queue"
+    ]
+  },
+  {
+    "korean": "대기열도구",
+    "originals": [
+      "queue"
+    ]
+  },
+  {
+    "korean": "대문자",
+    "originals": [
+      "builtins.str.upper"
+    ]
+  },
+  {
+    "korean": "대문자여부",
+    "originals": [
+      "builtins.str.isupper"
+    ]
+  },
+  {
+    "korean": "대소문자뒤집기",
+    "originals": [
+      "builtins.str.swapcase"
+    ]
+  },
+  {
+    "korean": "대소문자무시",
+    "originals": [
+      "re.IGNORECASE"
+    ]
+  },
+  {
+    "korean": "대소문자접기",
+    "originals": [
+      "builtins.str.casefold"
+    ]
+  },
+  {
+    "korean": "대응",
+    "originals": [
+      "builtins.map",
+      "map"
+    ]
+  },
+  {
+    "korean": "대칭차집합",
+    "originals": [
+      "builtins.set.symmetric_difference"
+    ]
+  },
+  {
+    "korean": "대칭차집합갱신",
+    "originals": [
+      "builtins.set.symmetric_difference_update"
+    ]
+  },
+  {
+    "korean": "대화코드",
+    "originals": [
+      "code"
+    ]
+  },
+  {
+    "korean": "더하기",
+    "originals": [
+      "operator.add"
+    ]
+  },
+  {
+    "korean": "도로",
+    "originals": [
+      "math.degrees"
+    ]
+  },
+  {
+    "korean": "도움말",
+    "originals": [
+      "builtins.help",
+      "help"
+    ]
+  },
+  {
+    "korean": "동시실행",
+    "originals": [
+      "concurrent"
+    ]
+  },
+  {
+    "korean": "동시실행.미래결과",
+    "originals": [
+      "concurrent.futures"
+    ]
+  },
+  {
+    "korean": "동안",
+    "originals": [
+      "while"
+    ]
+  },
+  {
+    "korean": "동일",
+    "originals": [
+      "is"
+    ]
+  },
+  {
+    "korean": "되풀이",
+    "originals": [
+      "itertools.repeat"
+    ]
+  },
+  {
+    "korean": "두인자역탄젠트",
+    "originals": [
+      "math.atan2"
+    ]
+  },
+  {
+    "korean": "뒤분할",
+    "originals": [
+      "builtins.str.rpartition"
+    ]
+  },
+  {
+    "korean": "뒤에서나누기",
+    "originals": [
+      "builtins.str.rsplit"
+    ]
+  },
+  {
+    "korean": "뒤에서위치",
+    "originals": [
+      "builtins.str.rindex"
+    ]
+  },
+  {
+    "korean": "뒤에서찾기",
+    "originals": [
+      "builtins.str.rfind"
+    ]
+  },
+  {
+    "korean": "뒤집기",
+    "originals": [
+      "builtins.bytearray.reverse",
+      "builtins.list.reverse",
+      "collections.deque.reverse"
+    ]
+  },
+  {
+    "korean": "뒷부분",
+    "originals": [
+      "pandas.core.frame.DataFrame.tail"
+    ]
+  },
+  {
+    "korean": "들여쓰기",
+    "originals": [
+      "textwrap.indent"
+    ]
+  },
+  {
+    "korean": "들여쓰기검사",
+    "originals": [
+      "tabnanny"
+    ]
+  },
+  {
+    "korean": "들여쓰기오류",
+    "originals": [
+      "IndentationError",
+      "builtins.IndentationError"
+    ]
+  },
+  {
+    "korean": "디렉터리대상오류",
+    "originals": [
+      "IsADirectoryError",
+      "builtins.IsADirectoryError"
+    ]
+  },
+  {
+    "korean": "디렉터리들만들기",
+    "originals": [
+      "os.makedirs"
+    ]
+  },
+  {
+    "korean": "디렉터리만들기",
+    "originals": [
+      "os.mkdir",
+      "pathlib.Path.mkdir"
+    ]
+  },
+  {
+    "korean": "디렉터리명",
+    "originals": [
+      "os.path.dirname"
+    ]
+  },
+  {
+    "korean": "디렉터리복사",
+    "originals": [
+      "shutil.copytree"
+    ]
+  },
+  {
+    "korean": "디렉터리삭제",
+    "originals": [
+      "os.rmdir",
+      "pathlib.Path.rmdir",
+      "shutil.rmtree"
+    ]
+  },
+  {
+    "korean": "디렉터리아님오류",
+    "originals": [
+      "NotADirectoryError",
+      "builtins.NotADirectoryError"
+    ]
+  },
+  {
+    "korean": "디렉터리여부",
+    "originals": [
+      "os.path.isdir",
+      "pathlib.Path.is_dir"
+    ]
+  },
+  {
+    "korean": "디버그",
+    "originals": [
+      "logging.debug"
+    ]
+  },
+  {
+    "korean": "디버그수준",
+    "originals": [
+      "logging.DEBUG"
+    ]
+  },
+  {
+    "korean": "또는",
+    "originals": [
+      "or"
+    ]
+  },
+  {
+    "korean": "라디안으로",
+    "originals": [
+      "math.radians"
+    ]
+  },
+  {
+    "korean": "로그",
+    "originals": [
+      "math.log"
+    ]
+  },
+  {
+    "korean": "리터럴형",
+    "originals": [
+      "typing.Literal"
+    ]
+  },
+  {
+    "korean": "마이크로초",
+    "originals": [
+      "datetime.datetime.microsecond"
+    ]
+  },
+  {
+    "korean": "마이크로초수",
+    "originals": [
+      "datetime.timedelta.microseconds"
+    ]
+  },
+  {
+    "korean": "마지막",
+    "originals": [
+      "finally"
+    ]
+  },
+  {
+    "korean": "만들기",
+    "originals": [
+      "hashlib.new"
+    ]
+  },
+  {
+    "korean": "만약",
+    "originals": [
+      "if"
+    ]
+  },
+  {
+    "korean": "맞춤",
+    "originals": [
+      "match"
+    ]
+  },
+  {
+    "korean": "매체유형",
+    "originals": [
+      "mimetypes"
+    ]
+  },
+  {
+    "korean": "메모리매핑",
+    "originals": [
+      "mmap"
+    ]
+  },
+  {
+    "korean": "메모리뷰",
+    "originals": [
+      "builtins.memoryview",
+      "memoryview"
+    ]
+  },
+  {
+    "korean": "메모리수거",
+    "originals": [
+      "gc"
+    ]
+  },
+  {
+    "korean": "메모리오류",
+    "originals": [
+      "MemoryError",
+      "builtins.MemoryError"
+    ]
+  },
+  {
+    "korean": "메모리추적",
+    "originals": [
+      "tracemalloc"
+    ]
+  },
+  {
+    "korean": "메모리크기",
+    "originals": [
+      "sys.getsizeof"
+    ]
+  },
+  {
+    "korean": "메서드호출도구",
+    "originals": [
+      "operator.methodcaller"
+    ]
+  },
+  {
+    "korean": "메시지인증",
+    "originals": [
+      "hmac"
+    ]
+  },
+  {
+    "korean": "명령셸",
+    "originals": [
+      "cmd"
+    ]
+  },
+  {
+    "korean": "명령코드",
+    "originals": [
+      "opcode"
+    ]
+  },
+  {
+    "korean": "모두",
+    "originals": [
+      "all",
+      "builtins.all"
+    ]
+  },
+  {
+    "korean": "모두찾기",
+    "originals": [
+      "re.Pattern.findall",
+      "re.findall"
+    ]
+  },
+  {
+    "korean": "모듈경로",
+    "originals": [
+      "sys.path"
+    ]
+  },
+  {
+    "korean": "모듈불러오기",
+    "originals": [
+      "importlib.import_module"
+    ]
+  },
+  {
+    "korean": "모듈실행",
+    "originals": [
+      "runpy"
+    ]
+  },
+  {
+    "korean": "모듈없음오류",
+    "originals": [
+      "ModuleNotFoundError",
+      "builtins.ModuleNotFoundError"
+    ]
+  },
+  {
+    "korean": "모듈적재",
+    "originals": [
+      "importlib"
+    ]
+  },
+  {
+    "korean": "모듈찾기",
+    "originals": [
+      "modulefinder"
+    ]
+  },
+  {
+    "korean": "모분산",
+    "originals": [
+      "statistics.pvariance"
+    ]
+  },
+  {
+    "korean": "모양",
+    "originals": [
+      "builtins.memoryview.shape",
+      "numpy.ndarray.shape",
+      "pandas.core.frame.DataFrame.shape"
+    ]
+  },
+  {
+    "korean": "모양변경",
+    "originals": [
+      "numpy.ndarray.reshape"
+    ]
+  },
+  {
+    "korean": "모으기",
+    "originals": [
+      "asyncio.gather"
+    ]
+  },
+  {
+    "korean": "모표준편차",
+    "originals": [
+      "statistics.pstdev"
+    ]
+  },
+  {
+    "korean": "목록",
+    "originals": [
+      "builtins.list",
+      "list"
+    ]
+  },
+  {
+    "korean": "목록보기",
+    "originals": [
+      "os.listdir",
+      "pathlib.Path.iterdir"
+    ]
+  },
+  {
+    "korean": "목록으로",
+    "originals": [
+      "builtins.memoryview.tolist",
+      "numpy.ndarray.tolist",
+      "pandas.core.series.Series.tolist"
+    ]
+  },
+  {
+    "korean": "몫과나머지",
+    "originals": [
+      "builtins.divmod",
+      "divmod"
+    ]
+  },
+  {
+    "korean": "무작위",
+    "originals": [
+      "random"
+    ]
+  },
+  {
+    "korean": "무작위식별자",
+    "originals": [
+      "uuid.uuid4"
+    ]
+  },
+  {
+    "korean": "무한대",
+    "originals": [
+      "math.inf"
+    ]
+  },
+  {
+    "korean": "무한여부",
+    "originals": [
+      "math.isinf"
+    ]
+  },
+  {
+    "korean": "묶기",
+    "originals": [
+      "itertools.groupby",
+      "pandas.core.frame.DataFrame.groupby"
+    ]
+  },
+  {
+    "korean": "묶음나누기",
+    "originals": [
+      "itertools.batched"
+    ]
+  },
+  {
+    "korean": "문맥관리자",
+    "originals": [
+      "contextlib.contextmanager"
+    ]
+  },
+  {
+    "korean": "문맥도구",
+    "originals": [
+      "contextlib"
+    ]
+  },
+  {
+    "korean": "문맥변수",
+    "originals": [
+      "contextvars"
+    ]
+  },
+  {
+    "korean": "문법경고",
+    "originals": [
+      "SyntaxWarning",
+      "builtins.SyntaxWarning"
+    ]
+  },
+  {
+    "korean": "문법오류",
+    "originals": [
+      "SyntaxError",
+      "builtins.SyntaxError"
+    ]
+  },
+  {
+    "korean": "문서시험",
+    "originals": [
+      "doctest"
+    ]
+  },
+  {
+    "korean": "문자",
+    "originals": [
+      "builtins.chr",
+      "chr"
+    ]
+  },
+  {
+    "korean": "문자번호",
+    "originals": [
+      "builtins.ord",
+      "ord"
+    ]
+  },
+  {
+    "korean": "문자여부",
+    "originals": [
+      "builtins.str.isalpha"
+    ]
+  },
+  {
+    "korean": "문자열",
+    "originals": [
+      "builtins.str",
+      "str"
+    ]
+  },
+  {
+    "korean": "문자열도구",
+    "originals": [
+      "string"
+    ]
+  },
+  {
+    "korean": "문자열버퍼",
+    "originals": [
+      "io.StringIO"
+    ]
+  },
+  {
+    "korean": "문자열서식",
+    "originals": [
+      "datetime.date.strftime",
+      "time.strftime"
+    ]
+  },
+  {
+    "korean": "문자열쓰기",
+    "originals": [
+      "pathlib.Path.write_text"
+    ]
+  },
+  {
+    "korean": "문자열열거형",
+    "originals": [
+      "enum.StrEnum"
+    ]
+  },
+  {
+    "korean": "문자열읽기",
+    "originals": [
+      "pathlib.Path.read_text"
+    ]
+  },
+  {
+    "korean": "문자열준비",
+    "originals": [
+      "stringprep"
+    ]
+  },
+  {
+    "korean": "미구현오류",
+    "originals": [
+      "NotImplementedError",
+      "builtins.NotImplementedError"
+    ]
+  },
+  {
+    "korean": "미래변경경고",
+    "originals": [
+      "FutureWarning",
+      "builtins.FutureWarning"
+    ]
+  },
+  {
+    "korean": "미만난수",
+    "originals": [
+      "secrets.randbelow"
+    ]
+  },
+  {
+    "korean": "미할당지역변수오류",
+    "originals": [
+      "UnboundLocalError",
+      "builtins.UnboundLocalError"
+    ]
+  },
+  {
+    "korean": "바꾸기",
+    "originals": [
+      "builtins.str.replace"
+    ]
+  },
+  {
+    "korean": "바이트",
+    "originals": [
+      "builtins.bytes",
+      "bytes"
+    ]
+  },
+  {
+    "korean": "바이트경고",
+    "originals": [
+      "BytesWarning",
+      "builtins.BytesWarning"
+    ]
+  },
+  {
+    "korean": "바이트로",
+    "originals": [
+      "builtins.int.to_bytes",
+      "builtins.memoryview.tobytes"
+    ]
+  },
+  {
+    "korean": "바이트배열",
+    "originals": [
+      "builtins.bytearray",
+      "bytearray"
+    ]
+  },
+  {
+    "korean": "바이트버퍼",
+    "originals": [
+      "io.BytesIO"
+    ]
+  },
+  {
+    "korean": "바이트수",
+    "originals": [
+      "builtins.memoryview.nbytes"
+    ]
+  },
+  {
+    "korean": "바이트쓰기",
+    "originals": [
+      "pathlib.Path.write_bytes"
+    ]
+  },
+  {
+    "korean": "바이트에서",
+    "originals": [
+      "builtins.int.from_bytes"
+    ]
+  },
+  {
+    "korean": "바이트읽기",
+    "originals": [
+      "pathlib.Path.read_bytes"
+    ]
+  },
+  {
+    "korean": "바이트코드해석",
+    "originals": [
+      "dis"
+    ]
+  },
+  {
+    "korean": "반복",
+    "originals": [
+      "for"
+    ]
+  },
+  {
+    "korean": "반복가능형",
+    "originals": [
+      "typing.Iterable"
+    ]
+  },
+  {
+    "korean": "반복끝",
+    "originals": [
+      "StopIteration",
+      "builtins.StopIteration"
+    ]
+  },
+  {
+    "korean": "반복도구",
+    "originals": [
+      "itertools"
+    ]
+  },
+  {
+    "korean": "반복자",
+    "originals": [
+      "builtins.iter",
+      "iter"
+    ]
+  },
+  {
+    "korean": "반복자형",
+    "originals": [
+      "typing.Iterator"
+    ]
+  },
+  {
+    "korean": "반복조각",
+    "originals": [
+      "itertools.islice"
+    ]
+  },
+  {
+    "korean": "반올림",
+    "originals": [
+      "builtins.round",
+      "round"
+    ]
+  },
+  {
+    "korean": "반중력",
+    "originals": [
+      "antigravity"
+    ]
+  },
+  {
+    "korean": "반환",
+    "originals": [
+      "return"
+    ]
+  },
+  {
+    "korean": "발생",
+    "originals": [
+      "raise"
+    ]
+  },
+  {
+    "korean": "배열",
+    "originals": [
+      "numpy.array"
+    ]
+  },
+  {
+    "korean": "배열도구",
+    "originals": [
+      "array"
+    ]
+  },
+  {
+    "korean": "배열로",
+    "originals": [
+      "numpy.asarray"
+    ]
+  },
+  {
+    "korean": "배열형",
+    "originals": [
+      "numpy.ndarray"
+    ]
+  },
+  {
+    "korean": "버리기",
+    "originals": [
+      "builtins.set.discard",
+      "subprocess.DEVNULL"
+    ]
+  },
+  {
+    "korean": "버림",
+    "originals": [
+      "math.trunc"
+    ]
+  },
+  {
+    "korean": "버전",
+    "originals": [
+      "sys.version"
+    ]
+  },
+  {
+    "korean": "버전정보",
+    "originals": [
+      "sys.version_info"
+    ]
+  },
+  {
+    "korean": "버퍼오류",
+    "originals": [
+      "BufferError",
+      "builtins.BufferError"
+    ]
+  },
+  {
+    "korean": "번호붙이기",
+    "originals": [
+      "builtins.enumerate",
+      "enumerate"
+    ]
+  },
+  {
+    "korean": "범용형",
+    "originals": [
+      "typing.Generic"
+    ]
+  },
+  {
+    "korean": "범위",
+    "originals": [
+      "builtins.range",
+      "range"
+    ]
+  },
+  {
+    "korean": "범위난수",
+    "originals": [
+      "random.Random.randrange",
+      "random.randrange"
+    ]
+  },
+  {
+    "korean": "범주",
+    "originals": [
+      "unicodedata.category"
+    ]
+  },
+  {
+    "korean": "변수목록",
+    "originals": [
+      "builtins.vars",
+      "vars"
+    ]
+  },
+  {
+    "korean": "변환",
+    "originals": [
+      "builtins.str.translate"
+    ]
+  },
+  {
+    "korean": "변환표만들기",
+    "originals": [
+      "builtins.str.maketrans"
+    ]
+  },
+  {
+    "korean": "별칭",
+    "originals": [
+      "as"
+    ]
+  },
+  {
+    "korean": "병합",
+    "originals": [
+      "pandas.merge"
+    ]
+  },
+  {
+    "korean": "보기좋은출력",
+    "originals": [
+      "pprint"
+    ]
+  },
+  {
+    "korean": "보안난수",
+    "originals": [
+      "secrets"
+    ]
+  },
+  {
+    "korean": "보안통신",
+    "originals": [
+      "ssl"
+    ]
+  },
+  {
+    "korean": "복사",
+    "originals": [
+      "builtins.bytearray.copy",
+      "builtins.dict.copy",
+      "builtins.list.copy",
+      "builtins.set.copy",
+      "collections.deque.copy",
+      "numpy.ndarray.copy",
+      "pandas.core.frame.DataFrame.copy",
+      "shutil.copy"
+    ]
+  },
+  {
+    "korean": "복사도구",
+    "originals": [
+      "copy"
+    ]
+  },
+  {
+    "korean": "복사등록",
+    "originals": [
+      "copyreg"
+    ]
+  },
+  {
+    "korean": "복소수",
+    "originals": [
+      "builtins.complex",
+      "complex"
+    ]
+  },
+  {
+    "korean": "복소수학",
+    "originals": [
+      "cmath"
+    ]
+  },
+  {
+    "korean": "부동소수점오류",
+    "originals": [
+      "FloatingPointError",
+      "builtins.FloatingPointError"
+    ]
+  },
+  {
+    "korean": "부모",
+    "originals": [
+      "pathlib.PurePath.parent"
+    ]
+  },
+  {
+    "korean": "부모들",
+    "originals": [
+      "pathlib.PurePath.parents"
+    ]
+  },
+  {
+    "korean": "부분적용",
+    "originals": [
+      "functools.partial"
+    ]
+  },
+  {
+    "korean": "부분집합여부",
+    "originals": [
+      "builtins.set.issubset"
+    ]
+  },
+  {
+    "korean": "분",
+    "originals": [
+      "datetime.datetime.minute"
+    ]
+  },
+  {
+    "korean": "분모",
+    "originals": [
+      "builtins.int.denominator"
+    ]
+  },
+  {
+    "korean": "분수",
+    "originals": [
+      "fractions.Fraction"
+    ]
+  },
+  {
+    "korean": "분수도구",
+    "originals": [
+      "fractions"
+    ]
+  },
+  {
+    "korean": "분위수",
+    "originals": [
+      "statistics.quantiles"
+    ]
+  },
+  {
+    "korean": "분자",
+    "originals": [
+      "builtins.int.numerator"
+    ]
+  },
+  {
+    "korean": "불러오기",
+    "originals": [
+      "import"
+    ]
+  },
+  {
+    "korean": "불러오기경고",
+    "originals": [
+      "ImportWarning",
+      "builtins.ImportWarning"
+    ]
+  },
+  {
+    "korean": "불러오기오류",
+    "originals": [
+      "ImportError",
+      "builtins.ImportError"
+    ]
+  },
+  {
+    "korean": "비교를기준으로",
+    "originals": [
+      "functools.cmp_to_key"
+    ]
+  },
+  {
+    "korean": "비동기",
+    "originals": [
+      "async"
+    ]
+  },
+  {
+    "korean": "비동기다음",
+    "originals": [
+      "anext",
+      "builtins.anext"
+    ]
+  },
+  {
+    "korean": "비동기도구",
+    "originals": [
+      "asyncio"
+    ]
+  },
+  {
+    "korean": "비동기문맥관리자",
+    "originals": [
+      "contextlib.asynccontextmanager"
+    ]
+  },
+  {
+    "korean": "비동기반복끝",
+    "originals": [
+      "StopAsyncIteration",
+      "builtins.StopAsyncIteration"
+    ]
+  },
+  {
+    "korean": "비동기반복자",
+    "originals": [
+      "aiter",
+      "builtins.aiter"
+    ]
+  },
+  {
+    "korean": "비수",
+    "originals": [
+      "math.nan"
+    ]
+  },
+  {
+    "korean": "비수여부",
+    "originals": [
+      "math.isnan"
+    ]
+  },
+  {
+    "korean": "비어있음오류",
+    "originals": [
+      "queue.Empty"
+    ]
+  },
+  {
+    "korean": "비우기",
+    "originals": [
+      "_io._IOBase.flush",
+      "builtins.bytearray.clear",
+      "builtins.dict.clear",
+      "builtins.list.clear",
+      "builtins.set.clear",
+      "collections.deque.clear"
+    ]
+  },
+  {
+    "korean": "비지압축",
+    "originals": [
+      "bz2"
+    ]
+  },
+  {
+    "korean": "비지역",
+    "originals": [
+      "nonlocal"
+    ]
+  },
+  {
+    "korean": "비트개수",
+    "originals": [
+      "builtins.int.bit_count"
+    ]
+  },
+  {
+    "korean": "비트길이",
+    "originals": [
+      "builtins.int.bit_length"
+    ]
+  },
+  {
+    "korean": "빈도",
+    "originals": [
+      "pandas.core.series.Series.value_counts"
+    ]
+  },
+  {
+    "korean": "빈도순",
+    "originals": [
+      "collections.Counter.most_common"
+    ]
+  },
+  {
+    "korean": "빈문맥",
+    "originals": [
+      "contextlib.nullcontext"
+    ]
+  },
+  {
+    "korean": "빈파일만들기",
+    "originals": [
+      "pathlib.Path.touch"
+    ]
+  },
+  {
+    "korean": "빗변",
+    "originals": [
+      "math.hypot"
+    ]
+  },
+  {
+    "korean": "빼기",
+    "originals": [
+      "collections.Counter.subtract"
+    ]
+  },
+  {
+    "korean": "사용자경고",
+    "originals": [
+      "UserWarning",
+      "builtins.UserWarning"
+    ]
+  },
+  {
+    "korean": "사용자경로확장",
+    "originals": [
+      "os.path.expanduser"
+    ]
+  },
+  {
+    "korean": "사용자정보",
+    "originals": [
+      "pwd"
+    ]
+  },
+  {
+    "korean": "사용중단경고",
+    "originals": [
+      "DeprecationWarning",
+      "builtins.DeprecationWarning"
+    ]
+  },
+  {
+    "korean": "사용중단예정경고",
+    "originals": [
+      "PendingDeprecationWarning",
+      "builtins.PendingDeprecationWarning"
+    ]
+  },
+  {
+    "korean": "사인",
+    "originals": [
+      "math.sin"
+    ]
+  },
+  {
+    "korean": "사전",
+    "originals": [
+      "builtins.dict",
+      "dict"
+    ]
+  },
+  {
+    "korean": "사전서식",
+    "originals": [
+      "builtins.str.format_map"
+    ]
+  },
+  {
+    "korean": "사전쓰기도구",
+    "originals": [
+      "csv.DictWriter"
+    ]
+  },
+  {
+    "korean": "사전으로",
+    "originals": [
+      "dataclasses.asdict",
+      "pandas.core.frame.DataFrame.to_dict"
+    ]
+  },
+  {
+    "korean": "사전읽기도구",
+    "originals": [
+      "csv.DictReader"
+    ]
+  },
+  {
+    "korean": "삭제",
+    "originals": [
+      "del"
+    ]
+  },
+  {
+    "korean": "산술오류",
+    "originals": [
+      "ArithmeticError",
+      "builtins.ArithmeticError"
+    ]
+  },
+  {
+    "korean": "산출",
+    "originals": [
+      "yield"
+    ]
+  },
+  {
+    "korean": "삽입",
+    "originals": [
+      "builtins.bytearray.insert",
+      "builtins.list.insert",
+      "collections.deque.insert"
+    ]
+  },
+  {
+    "korean": "상관계수",
+    "originals": [
+      "statistics.correlation"
+    ]
+  },
+  {
+    "korean": "상대경로",
+    "originals": [
+      "pathlib.PurePath.relative_to"
+    ]
+  },
+  {
+    "korean": "상수시간비교",
+    "originals": [
+      "secrets.compare_digest"
+    ]
+  },
+  {
+    "korean": "상용로그",
+    "originals": [
+      "math.log10"
+    ]
+  },
+  {
+    "korean": "상위",
+    "originals": [
+      "builtins.super",
+      "super"
+    ]
+  },
+  {
+    "korean": "상위집합여부",
+    "originals": [
+      "builtins.set.issuperset"
+    ]
+  },
+  {
+    "korean": "상태",
+    "originals": [
+      "pathlib.Path.stat"
+    ]
+  },
+  {
+    "korean": "색상변환",
+    "originals": [
+      "colorsys"
+    ]
+  },
+  {
+    "korean": "색인",
+    "originals": [
+      "pandas.core.frame.DataFrame.index"
+    ]
+  },
+  {
+    "korean": "색인오류",
+    "originals": [
+      "IndexError",
+      "builtins.IndexError"
+    ]
+  },
+  {
+    "korean": "생성기종료",
+    "originals": [
+      "GeneratorExit",
+      "builtins.GeneratorExit"
+    ]
+  },
+  {
+    "korean": "샤256",
+    "originals": [
+      "hashlib.sha256"
+    ]
+  },
+  {
+    "korean": "샤512",
+    "originals": [
+      "hashlib.sha512"
+    ]
+  },
+  {
+    "korean": "서로소",
+    "originals": [
+      "builtins.set.isdisjoint"
+    ]
+  },
+  {
+    "korean": "서식",
+    "originals": [
+      "builtins.format",
+      "builtins.memoryview.format",
+      "builtins.str.format",
+      "format"
+    ]
+  },
+  {
+    "korean": "섞기",
+    "originals": [
+      "random.Random.shuffle",
+      "random.shuffle"
+    ]
+  },
+  {
+    "korean": "선택형",
+    "originals": [
+      "typing.Optional"
+    ]
+  },
+  {
+    "korean": "설정얻기",
+    "originals": [
+      "decimal.getcontext"
+    ]
+  },
+  {
+    "korean": "설정해석",
+    "originals": [
+      "configparser"
+    ]
+  },
+  {
+    "korean": "설치환경",
+    "originals": [
+      "site"
+    ]
+  },
+  {
+    "korean": "성능분석",
+    "originals": [
+      "profile"
+    ]
+  },
+  {
+    "korean": "성능시계",
+    "originals": [
+      "time.perf_counter"
+    ]
+  },
+  {
+    "korean": "성능통계",
+    "originals": [
+      "pstats"
+    ]
+  },
+  {
+    "korean": "세계시각",
+    "originals": [
+      "time.gmtime"
+    ]
+  },
+  {
+    "korean": "셸문법해석",
+    "originals": [
+      "shlex"
+    ]
+  },
+  {
+    "korean": "소문자",
+    "originals": [
+      "builtins.str.lower"
+    ]
+  },
+  {
+    "korean": "소문자여부",
+    "originals": [
+      "builtins.str.islower"
+    ]
+  },
+  {
+    "korean": "소스얻기",
+    "originals": [
+      "inspect.getsource"
+    ]
+  },
+  {
+    "korean": "소켓",
+    "originals": [
+      "socket",
+      "socket.socket"
+    ]
+  },
+  {
+    "korean": "소켓서버",
+    "originals": [
+      "socketserver"
+    ]
+  },
+  {
+    "korean": "속성",
+    "originals": [
+      "builtins.property",
+      "property"
+    ]
+  },
+  {
+    "korean": "속성목록",
+    "originals": [
+      "builtins.dir",
+      "dir"
+    ]
+  },
+  {
+    "korean": "속성목록파일",
+    "originals": [
+      "plistlib"
+    ]
+  },
+  {
+    "korean": "속성삭제",
+    "originals": [
+      "builtins.delattr",
+      "delattr"
+    ]
+  },
+  {
+    "korean": "속성설정",
+    "originals": [
+      "builtins.setattr",
+      "setattr"
+    ]
+  },
+  {
+    "korean": "속성얻기",
+    "originals": [
+      "builtins.getattr",
+      "getattr"
+    ]
+  },
+  {
+    "korean": "속성얻기도구",
+    "originals": [
+      "operator.attrgetter"
+    ]
+  },
+  {
+    "korean": "속성오류",
+    "originals": [
+      "AttributeError",
+      "builtins.AttributeError"
+    ]
+  },
+  {
+    "korean": "속성있음",
+    "originals": [
+      "builtins.hasattr",
+      "hasattr"
+    ]
+  },
+  {
+    "korean": "수열",
+    "originals": [
+      "numpy.arange"
+    ]
+  },
+  {
+    "korean": "수치기반",
+    "originals": [
+      "numbers"
+    ]
+  },
+  {
+    "korean": "수치문자여부",
+    "originals": [
+      "builtins.str.isnumeric"
+    ]
+  },
+  {
+    "korean": "수학",
+    "originals": [
+      "math"
+    ]
+  },
+  {
+    "korean": "순서사전",
+    "originals": [
+      "collections.OrderedDict"
+    ]
+  },
+  {
+    "korean": "순수경로",
+    "originals": [
+      "pathlib.PurePath"
+    ]
+  },
+  {
+    "korean": "순열",
+    "originals": [
+      "itertools.permutations"
+    ]
+  },
+  {
+    "korean": "순열수",
+    "originals": [
+      "math.perm"
+    ]
+  },
+  {
+    "korean": "순환",
+    "originals": [
+      "itertools.cycle"
+    ]
+  },
+  {
+    "korean": "숫자여부",
+    "originals": [
+      "builtins.str.isdigit"
+    ]
+  },
+  {
+    "korean": "쉼표파일",
+    "originals": [
+      "csv"
+    ]
+  },
+  {
+    "korean": "쉼표파일로",
+    "originals": [
+      "pandas.core.frame.DataFrame.to_csv"
+    ]
+  },
+  {
+    "korean": "쉼표파일읽기",
+    "originals": [
+      "pandas.read_csv"
+    ]
+  },
+  {
+    "korean": "스레드",
+    "originals": [
+      "threading",
+      "threading.Thread"
+    ]
+  },
+  {
+    "korean": "스레드에서",
+    "originals": [
+      "asyncio.to_thread"
+    ]
+  },
+  {
+    "korean": "스레드풀",
+    "originals": [
+      "concurrent.futures.ThreadPoolExecutor"
+    ]
+  },
+  {
+    "korean": "시",
+    "originals": [
+      "datetime.datetime.hour"
+    ]
+  },
+  {
+    "korean": "시각",
+    "originals": [
+      "datetime.time"
+    ]
+  },
+  {
+    "korean": "시각값",
+    "originals": [
+      "datetime.datetime.timestamp"
+    ]
+  },
+  {
+    "korean": "시각값에서",
+    "originals": [
+      "datetime.datetime.fromtimestamp"
+    ]
+  },
+  {
+    "korean": "시각해석",
+    "originals": [
+      "time.strptime"
+    ]
+  },
+  {
+    "korean": "시간",
+    "originals": [
+      "datetime.datetime.time",
+      "time"
+    ]
+  },
+  {
+    "korean": "시간대",
+    "originals": [
+      "datetime.timezone",
+      "zoneinfo.ZoneInfo"
+    ]
+  },
+  {
+    "korean": "시간대목록",
+    "originals": [
+      "zoneinfo.available_timezones"
+    ]
+  },
+  {
+    "korean": "시간대변환",
+    "originals": [
+      "datetime.datetime.astimezone"
+    ]
+  },
+  {
+    "korean": "시간대정보",
+    "originals": [
+      "datetime.datetime.tzinfo",
+      "zoneinfo"
+    ]
+  },
+  {
+    "korean": "시간차",
+    "originals": [
+      "datetime.timedelta"
+    ]
+  },
+  {
+    "korean": "시간초과오류",
+    "originals": [
+      "TimeoutError",
+      "builtins.TimeoutError"
+    ]
+  },
+  {
+    "korean": "시간측정",
+    "originals": [
+      "timeit"
+    ]
+  },
+  {
+    "korean": "시도",
+    "originals": [
+      "try"
+    ]
+  },
+  {
+    "korean": "시스템",
+    "originals": [
+      "platform.system",
+      "sys"
+    ]
+  },
+  {
+    "korean": "시스템기록",
+    "originals": [
+      "syslog"
+    ]
+  },
+  {
+    "korean": "시스템오류",
+    "originals": [
+      "SystemError",
+      "builtins.SystemError"
+    ]
+  },
+  {
+    "korean": "시스템종료",
+    "originals": [
+      "SystemExit",
+      "builtins.SystemExit"
+    ]
+  },
+  {
+    "korean": "시자료형",
+    "originals": [
+      "ctypes"
+    ]
+  },
+  {
+    "korean": "시작",
+    "originals": [
+      "re.Match.start"
+    ]
+  },
+  {
+    "korean": "시작일치",
+    "originals": [
+      "builtins.str.startswith",
+      "re.Pattern.match",
+      "re.match"
+    ]
+  },
+  {
+    "korean": "시프로파일",
+    "originals": [
+      "cProfile"
+    ]
+  },
+  {
+    "korean": "식별값",
+    "originals": [
+      "builtins.id",
+      "id"
+    ]
+  },
+  {
+    "korean": "식별자",
+    "originals": [
+      "uuid.UUID"
+    ]
+  },
+  {
+    "korean": "식별자여부",
+    "originals": [
+      "builtins.str.isidentifier"
+    ]
+  },
+  {
+    "korean": "신호처리",
+    "originals": [
+      "signal"
+    ]
+  },
+  {
+    "korean": "실수",
+    "originals": [
+      "builtins.float",
+      "float"
+    ]
+  },
+  {
+    "korean": "실수64",
+    "originals": [
+      "numpy.float64"
+    ]
+  },
+  {
+    "korean": "실수부",
+    "originals": [
+      "builtins.complex.real",
+      "builtins.float.real",
+      "builtins.int.real"
+    ]
+  },
+  {
+    "korean": "실수절댓값",
+    "originals": [
+      "math.fabs"
+    ]
+  },
+  {
+    "korean": "실수평균",
+    "originals": [
+      "statistics.fmean"
+    ]
+  },
+  {
+    "korean": "실행",
+    "originals": [
+      "asyncio.run",
+      "builtins.exec",
+      "exec",
+      "subprocess.run"
+    ]
+  },
+  {
+    "korean": "실행경고",
+    "originals": [
+      "RuntimeWarning",
+      "builtins.RuntimeWarning"
+    ]
+  },
+  {
+    "korean": "실행오류",
+    "originals": [
+      "RuntimeError",
+      "builtins.RuntimeError"
+    ]
+  },
+  {
+    "korean": "실행추적",
+    "originals": [
+      "trace"
+    ]
+  },
+  {
+    "korean": "실행파일",
+    "originals": [
+      "sys.executable"
+    ]
+  },
+  {
+    "korean": "실행파일찾기",
+    "originals": [
+      "shutil.which"
+    ]
+  },
+  {
+    "korean": "실행환경",
+    "originals": [
+      "platform"
+    ]
+  },
+  {
+    "korean": "십육진토큰",
+    "originals": [
+      "secrets.token_hex"
+    ]
+  },
+  {
+    "korean": "십육진표현",
+    "originals": [
+      "builtins.bytes.hex",
+      "builtins.float.hex",
+      "builtins.hex",
+      "builtins.memoryview.hex",
+      "hex"
+    ]
+  },
+  {
+    "korean": "십육진해독",
+    "originals": [
+      "builtins.bytes.fromhex",
+      "builtins.float.fromhex"
+    ]
+  },
+  {
+    "korean": "십진도구",
+    "originals": [
+      "decimal"
+    ]
+  },
+  {
+    "korean": "십진수",
+    "originals": [
+      "decimal.Decimal"
+    ]
+  },
+  {
+    "korean": "십진숫자여부",
+    "originals": [
+      "builtins.str.isdecimal"
+    ]
+  },
+  {
+    "korean": "쓰기",
+    "originals": [
+      "_io._IOBase.write",
+      "json.dump",
+      "pickle.dump"
+    ]
+  },
+  {
+    "korean": "쓰기가능",
+    "originals": [
+      "_io._IOBase.writable"
+    ]
+  },
+  {
+    "korean": "쓰기도구",
+    "originals": [
+      "csv.writer"
+    ]
+  },
+  {
+    "korean": "씨앗설정",
+    "originals": [
+      "random.Random.seed",
+      "random.seed"
+    ]
+  },
+  {
+    "korean": "아니고만약",
+    "originals": [
+      "elif"
+    ]
+  },
+  {
+    "korean": "아니면",
+    "originals": [
+      "else"
+    ]
+  },
+  {
+    "korean": "아님",
+    "originals": [
+      "not"
+    ]
+  },
+  {
+    "korean": "아무형",
+    "originals": [
+      "typing.Any"
+    ]
+  },
+  {
+    "korean": "아스키여부",
+    "originals": [
+      "builtins.str.isascii"
+    ]
+  },
+  {
+    "korean": "아스키표현",
+    "originals": [
+      "ascii",
+      "builtins.ascii"
+    ]
+  },
+  {
+    "korean": "아이들편집기",
+    "originals": [
+      "idlelib"
+    ]
+  },
+  {
+    "korean": "안에",
+    "originals": [
+      "in"
+    ]
+  },
+  {
+    "korean": "암호입력",
+    "originals": [
+      "getpass"
+    ]
+  },
+  {
+    "korean": "압축",
+    "originals": [
+      "gzip.compress"
+    ]
+  },
+  {
+    "korean": "압축도구",
+    "originals": [
+      "compression"
+    ]
+  },
+  {
+    "korean": "압축도구.제트표준",
+    "originals": [
+      "compression.zstd"
+    ]
+  },
+  {
+    "korean": "압축만들기",
+    "originals": [
+      "shutil.make_archive"
+    ]
+  },
+  {
+    "korean": "압축불러오기",
+    "originals": [
+      "zipimport"
+    ]
+  },
+  {
+    "korean": "압축앱",
+    "originals": [
+      "zipapp"
+    ]
+  },
+  {
+    "korean": "압축풀기",
+    "originals": [
+      "gzip.decompress",
+      "shutil.unpack_archive"
+    ]
+  },
+  {
+    "korean": "앞부분",
+    "originals": [
+      "pandas.core.frame.DataFrame.head"
+    ]
+  },
+  {
+    "korean": "앞분할",
+    "originals": [
+      "builtins.str.partition"
+    ]
+  },
+  {
+    "korean": "약한참조",
+    "originals": [
+      "weakref"
+    ]
+  },
+  {
+    "korean": "양끝큐",
+    "originals": [
+      "collections.deque"
+    ]
+  },
+  {
+    "korean": "얕은복사",
+    "originals": [
+      "copy.copy"
+    ]
+  },
+  {
+    "korean": "억제",
+    "originals": [
+      "contextlib.suppress"
+    ]
+  },
+  {
+    "korean": "얻기",
+    "originals": [
+      "builtins.dict.get"
+    ]
+  },
+  {
+    "korean": "없음",
+    "originals": [
+      "None"
+    ]
+  },
+  {
+    "korean": "에서",
+    "originals": [
+      "from"
+    ]
+  },
+  {
+    "korean": "엑셀읽기",
+    "originals": [
+      "pandas.read_excel"
+    ]
+  },
+  {
+    "korean": "엑스엠엘",
+    "originals": [
+      "xml"
+    ]
+  },
+  {
+    "korean": "엑스엠엘.원소트리",
+    "originals": [
+      "xml.etree.ElementTree"
+    ]
+  },
+  {
+    "korean": "엑스엠엘내부해석",
+    "originals": [
+      "pyexpat"
+    ]
+  },
+  {
+    "korean": "엑스엠엘원격호출",
+    "originals": [
+      "xmlrpc"
+    ]
+  },
+  {
+    "korean": "엘지엠에이압축",
+    "originals": [
+      "lzma"
+    ]
+  },
+  {
+    "korean": "엠디5",
+    "originals": [
+      "hashlib.md5"
+    ]
+  },
+  {
+    "korean": "여러줄",
+    "originals": [
+      "re.MULTILINE"
+    ]
+  },
+  {
+    "korean": "여럿고르기",
+    "originals": [
+      "random.Random.choices",
+      "random.choices"
+    ]
+  },
+  {
+    "korean": "역사인",
+    "originals": [
+      "math.asin"
+    ]
+  },
+  {
+    "korean": "역순반복",
+    "originals": [
+      "builtins.reversed",
+      "reversed"
+    ]
+  },
+  {
+    "korean": "역직렬화",
+    "originals": [
+      "pickle.loads"
+    ]
+  },
+  {
+    "korean": "역코사인",
+    "originals": [
+      "math.acos"
+    ]
+  },
+  {
+    "korean": "역탄젠트",
+    "originals": [
+      "math.atan"
+    ]
+  },
+  {
+    "korean": "연결",
+    "originals": [
+      "itertools.chain",
+      "numpy.concatenate",
+      "pandas.concat",
+      "sqlite3.connect"
+    ]
+  },
+  {
+    "korean": "연결거부오류",
+    "originals": [
+      "ConnectionRefusedError",
+      "builtins.ConnectionRefusedError"
+    ]
+  },
+  {
+    "korean": "연결만들기",
+    "originals": [
+      "socket.create_connection"
+    ]
+  },
+  {
+    "korean": "연결사전",
+    "originals": [
+      "collections.ChainMap"
+    ]
+  },
+  {
+    "korean": "연결오류",
+    "originals": [
+      "ConnectionError",
+      "builtins.ConnectionError"
+    ]
+  },
+  {
+    "korean": "연결중단오류",
+    "originals": [
+      "ConnectionAbortedError",
+      "builtins.ConnectionAbortedError"
+    ]
+  },
+  {
+    "korean": "연결초기화오류",
+    "originals": [
+      "ConnectionResetError",
+      "builtins.ConnectionResetError"
+    ]
+  },
+  {
+    "korean": "연결형",
+    "originals": [
+      "sqlite3.Connection"
+    ]
+  },
+  {
+    "korean": "연도",
+    "originals": [
+      "datetime.date.year"
+    ]
+  },
+  {
+    "korean": "연산도구",
+    "originals": [
+      "operator"
+    ]
+  },
+  {
+    "korean": "열거도구",
+    "originals": [
+      "enum"
+    ]
+  },
+  {
+    "korean": "열거형",
+    "originals": [
+      "enum.Enum"
+    ]
+  },
+  {
+    "korean": "열기",
+    "originals": [
+      "builtins.open",
+      "gzip.open",
+      "io.open",
+      "open",
+      "pathlib.Path.open",
+      "tarfile.open"
+    ]
+  },
+  {
+    "korean": "열들",
+    "originals": [
+      "pandas.core.frame.DataFrame.columns"
+    ]
+  },
+  {
+    "korean": "영나눗셈오류",
+    "originals": [
+      "ZeroDivisionError",
+      "builtins.ZeroDivisionError"
+    ]
+  },
+  {
+    "korean": "영배열",
+    "originals": [
+      "numpy.zeros"
+    ]
+  },
+  {
+    "korean": "영숫자여부",
+    "originals": [
+      "builtins.str.isalnum"
+    ]
+  },
+  {
+    "korean": "영채우기",
+    "originals": [
+      "builtins.str.zfill"
+    ]
+  },
+  {
+    "korean": "예약실행",
+    "originals": [
+      "sched"
+    ]
+  },
+  {
+    "korean": "예약어도구",
+    "originals": [
+      "keyword"
+    ]
+  },
+  {
+    "korean": "예외",
+    "originals": [
+      "except"
+    ]
+  },
+  {
+    "korean": "예외기록",
+    "originals": [
+      "logging.exception"
+    ]
+  },
+  {
+    "korean": "예외묶음",
+    "originals": [
+      "ExceptionGroup",
+      "builtins.ExceptionGroup"
+    ]
+  },
+  {
+    "korean": "오늘",
+    "originals": [
+      "datetime.date.today"
+    ]
+  },
+  {
+    "korean": "오류",
+    "originals": [
+      "logging.error"
+    ]
+  },
+  {
+    "korean": "오류번호",
+    "originals": [
+      "errno"
+    ]
+  },
+  {
+    "korean": "오류추적",
+    "originals": [
+      "traceback"
+    ]
+  },
+  {
+    "korean": "오른쪽공백제거",
+    "originals": [
+      "builtins.str.rstrip"
+    ]
+  },
+  {
+    "korean": "오른쪽맞춤",
+    "originals": [
+      "builtins.str.rjust"
+    ]
+  },
+  {
+    "korean": "오른쪽위치",
+    "originals": [
+      "bisect.bisect_right"
+    ]
+  },
+  {
+    "korean": "올림",
+    "originals": [
+      "math.ceil"
+    ]
+  },
+  {
+    "korean": "옵션얻기",
+    "originals": [
+      "getopt"
+    ]
+  },
+  {
+    "korean": "완료순",
+    "originals": [
+      "concurrent.futures.as_completed"
+    ]
+  },
+  {
+    "korean": "왼쪽공백제거",
+    "originals": [
+      "builtins.str.lstrip"
+    ]
+  },
+  {
+    "korean": "왼쪽꺼내기",
+    "originals": [
+      "collections.deque.popleft"
+    ]
+  },
+  {
+    "korean": "왼쪽맞춤",
+    "originals": [
+      "builtins.str.ljust"
+    ]
+  },
+  {
+    "korean": "왼쪽위치",
+    "originals": [
+      "bisect.bisect_left"
+    ]
+  },
+  {
+    "korean": "왼쪽추가",
+    "originals": [
+      "collections.deque.appendleft"
+    ]
+  },
+  {
+    "korean": "왼쪽확장",
+    "originals": [
+      "collections.deque.extendleft"
+    ]
+  },
+  {
+    "korean": "요약통계",
+    "originals": [
+      "pandas.core.frame.DataFrame.describe"
+    ]
+  },
+  {
+    "korean": "요일",
+    "originals": [
+      "datetime.date.weekday"
+    ]
+  },
+  {
+    "korean": "요청",
+    "originals": [
+      "urllib.request.Request"
+    ]
+  },
+  {
+    "korean": "우선대기열",
+    "originals": [
+      "queue.PriorityQueue"
+    ]
+  },
+  {
+    "korean": "우편받기",
+    "originals": [
+      "poplib"
+    ]
+  },
+  {
+    "korean": "우편보내기",
+    "originals": [
+      "smtplib"
+    ]
+  },
+  {
+    "korean": "우편접근",
+    "originals": [
+      "imaplib"
+    ]
+  },
+  {
+    "korean": "우편함",
+    "originals": [
+      "mailbox"
+    ]
+  },
+  {
+    "korean": "운영체제",
+    "originals": [
+      "os"
+    ]
+  },
+  {
+    "korean": "운영체제.경로",
+    "originals": [
+      "os.path"
+    ]
+  },
+  {
+    "korean": "운영체제오류",
+    "originals": [
+      "OSError",
+      "builtins.OSError"
+    ]
+  },
+  {
+    "korean": "원소들",
+    "originals": [
+      "collections.Counter.elements"
+    ]
+  },
+  {
+    "korean": "원주율",
+    "originals": [
+      "math.pi"
+    ]
+  },
+  {
+    "korean": "월",
+    "originals": [
+      "datetime.date.month"
+    ]
+  },
+  {
+    "korean": "웹브라우저",
+    "originals": [
+      "webbrowser"
+    ]
+  },
+  {
+    "korean": "웹서버규약",
+    "originals": [
+      "wsgiref"
+    ]
+  },
+  {
+    "korean": "웹통신",
+    "originals": [
+      "http"
+    ]
+  },
+  {
+    "korean": "웹통신.서버",
+    "originals": [
+      "http.server"
+    ]
+  },
+  {
+    "korean": "웹통신.클라이언트",
+    "originals": [
+      "http.client"
+    ]
+  },
+  {
+    "korean": "위치",
+    "originals": [
+      "builtins.list.index",
+      "builtins.str.index",
+      "builtins.tuple.index",
+      "collections.deque.index"
+    ]
+  },
+  {
+    "korean": "위치선택",
+    "originals": [
+      "pandas.core.frame.DataFrame.iloc"
+    ]
+  },
+  {
+    "korean": "위치이동",
+    "originals": [
+      "_io._IOBase.seek"
+    ]
+  },
+  {
+    "korean": "윈도우경로",
+    "originals": [
+      "pathlib.WindowsPath"
+    ]
+  },
+  {
+    "korean": "윈도우경로도구",
+    "originals": [
+      "ntpath"
+    ]
+  },
+  {
+    "korean": "윈도우내부",
+    "originals": [
+      "nt"
+    ]
+  },
+  {
+    "korean": "윈도우레지스트리",
+    "originals": [
+      "winreg"
+    ]
+  },
+  {
+    "korean": "윈도우소리",
+    "originals": [
+      "winsound"
+    ]
+  },
+  {
+    "korean": "윈도우시실행기",
+    "originals": [
+      "msvcrt"
+    ]
+  },
+  {
+    "korean": "윈도우오류",
+    "originals": [
+      "WindowsError",
+      "builtins.WindowsError"
+    ]
+  },
+  {
+    "korean": "윈도우주소경로",
+    "originals": [
+      "nturl2path"
+    ]
+  },
+  {
+    "korean": "유니코드경고",
+    "originals": [
+      "UnicodeWarning",
+      "builtins.UnicodeWarning"
+    ]
+  },
+  {
+    "korean": "유니코드변환오류",
+    "originals": [
+      "UnicodeTranslateError",
+      "builtins.UnicodeTranslateError"
+    ]
+  },
+  {
+    "korean": "유니코드오류",
+    "originals": [
+      "UnicodeError",
+      "builtins.UnicodeError"
+    ]
+  },
+  {
+    "korean": "유니코드인코딩오류",
+    "originals": [
+      "UnicodeEncodeError",
+      "builtins.UnicodeEncodeError"
+    ]
+  },
+  {
+    "korean": "유니코드자료",
+    "originals": [
+      "unicodedata"
+    ]
+  },
+  {
+    "korean": "유니코드해독오류",
+    "originals": [
+      "UnicodeDecodeError",
+      "builtins.UnicodeDecodeError"
+    ]
+  },
+  {
+    "korean": "유한여부",
+    "originals": [
+      "math.isfinite"
+    ]
+  },
+  {
+    "korean": "육십사진법",
+    "originals": [
+      "base64"
+    ]
+  },
+  {
+    "korean": "육십사진인코딩",
+    "originals": [
+      "base64.b64encode"
+    ]
+  },
+  {
+    "korean": "육십사진해독",
+    "originals": [
+      "base64.b64decode"
+    ]
+  },
+  {
+    "korean": "음성파일",
+    "originals": [
+      "wave"
+    ]
+  },
+  {
+    "korean": "이동",
+    "originals": [
+      "shutil.move"
+    ]
+  },
+  {
+    "korean": "이동가능",
+    "originals": [
+      "_io._IOBase.seekable"
+    ]
+  },
+  {
+    "korean": "이름",
+    "originals": [
+      "os.name",
+      "pandas.core.series.Series.name",
+      "pathlib.PurePath.name",
+      "unicodedata.name"
+    ]
+  },
+  {
+    "korean": "이름공간",
+    "originals": [
+      "argparse.Namespace"
+    ]
+  },
+  {
+    "korean": "이름바꾸기",
+    "originals": [
+      "pathlib.PurePath.with_name"
+    ]
+  },
+  {
+    "korean": "이름변경",
+    "originals": [
+      "os.rename",
+      "pathlib.Path.rename"
+    ]
+  },
+  {
+    "korean": "이름선택",
+    "originals": [
+      "pandas.core.frame.DataFrame.loc"
+    ]
+  },
+  {
+    "korean": "이름오류",
+    "originals": [
+      "NameError",
+      "builtins.NameError"
+    ]
+  },
+  {
+    "korean": "이름있는임시파일",
+    "originals": [
+      "tempfile.NamedTemporaryFile"
+    ]
+  },
+  {
+    "korean": "이름튜플",
+    "originals": [
+      "collections.namedtuple"
+    ]
+  },
+  {
+    "korean": "이벤트",
+    "originals": [
+      "threading.Event"
+    ]
+  },
+  {
+    "korean": "이스케이프",
+    "originals": [
+      "html.escape",
+      "re.escape"
+    ]
+  },
+  {
+    "korean": "이스케이프해제",
+    "originals": [
+      "html.unescape"
+    ]
+  },
+  {
+    "korean": "이어붙이기",
+    "originals": [
+      "builtins.str.join"
+    ]
+  },
+  {
+    "korean": "이용허락",
+    "originals": [
+      "builtins.license",
+      "license"
+    ]
+  },
+  {
+    "korean": "이웃짝",
+    "originals": [
+      "itertools.pairwise"
+    ]
+  },
+  {
+    "korean": "이진구조",
+    "originals": [
+      "struct"
+    ]
+  },
+  {
+    "korean": "이진로그",
+    "originals": [
+      "math.log2"
+    ]
+  },
+  {
+    "korean": "이진아스키",
+    "originals": [
+      "binascii"
+    ]
+  },
+  {
+    "korean": "이진탐색",
+    "originals": [
+      "bisect"
+    ]
+  },
+  {
+    "korean": "이진표현",
+    "originals": [
+      "bin",
+      "builtins.bin"
+    ]
+  },
+  {
+    "korean": "익명함수",
+    "originals": [
+      "lambda"
+    ]
+  },
+  {
+    "korean": "인용인코딩",
+    "originals": [
+      "quopri"
+    ]
+  },
+  {
+    "korean": "인자들",
+    "originals": [
+      "sys.argv"
+    ]
+  },
+  {
+    "korean": "인자명세",
+    "originals": [
+      "inspect.signature"
+    ]
+  },
+  {
+    "korean": "인자해석",
+    "originals": [
+      "argparse"
+    ]
+  },
+  {
+    "korean": "인자해석기",
+    "originals": [
+      "argparse.ArgumentParser"
+    ]
+  },
+  {
+    "korean": "인코딩",
+    "originals": [
+      "builtins.str.encode",
+      "json.dumps",
+      "urllib.parse.quote"
+    ]
+  },
+  {
+    "korean": "인코딩경고",
+    "originals": [
+      "EncodingWarning",
+      "builtins.EncodingWarning"
+    ]
+  },
+  {
+    "korean": "인코딩도구",
+    "originals": [
+      "codecs"
+    ]
+  },
+  {
+    "korean": "인코딩모음",
+    "originals": [
+      "encodings"
+    ]
+  },
+  {
+    "korean": "인터넷주소",
+    "originals": [
+      "ipaddress"
+    ]
+  },
+  {
+    "korean": "인터넷주소형",
+    "originals": [
+      "socket.AF_INET"
+    ]
+  },
+  {
+    "korean": "일",
+    "originals": [
+      "datetime.date.day"
+    ]
+  },
+  {
+    "korean": "일반예외",
+    "originals": [
+      "Exception",
+      "builtins.Exception"
+    ]
+  },
+  {
+    "korean": "일배열",
+    "originals": [
+      "numpy.ones"
+    ]
+  },
+  {
+    "korean": "일수",
+    "originals": [
+      "datetime.timedelta.days"
+    ]
+  },
+  {
+    "korean": "일치형",
+    "originals": [
+      "re.Match"
+    ]
+  },
+  {
+    "korean": "읽기",
+    "originals": [
+      "_io._IOBase.read",
+      "json.load",
+      "pickle.load",
+      "tomllib.load"
+    ]
+  },
+  {
+    "korean": "읽기가능",
+    "originals": [
+      "_io._IOBase.readable"
+    ]
+  },
+  {
+    "korean": "읽기도구",
+    "originals": [
+      "csv.reader"
+    ]
+  },
+  {
+    "korean": "읽기전용",
+    "originals": [
+      "builtins.memoryview.readonly"
+    ]
+  },
+  {
+    "korean": "임시경로",
+    "originals": [
+      "tempfile.gettempdir"
+    ]
+  },
+  {
+    "korean": "임시디렉터리",
+    "originals": [
+      "tempfile.TemporaryDirectory"
+    ]
+  },
+  {
+    "korean": "임시파일",
+    "originals": [
+      "tempfile",
+      "tempfile.TemporaryFile"
+    ]
+  },
+  {
+    "korean": "입력",
+    "originals": [
+      "builtins.input",
+      "input"
+    ]
+  },
+  {
+    "korean": "입력끝오류",
+    "originals": [
+      "EOFError",
+      "builtins.EOFError"
+    ]
+  },
+  {
+    "korean": "입력자동완성",
+    "originals": [
+      "rlcompleter"
+    ]
+  },
+  {
+    "korean": "입력줄편집",
+    "originals": [
+      "readline"
+    ]
+  },
+  {
+    "korean": "입출력",
+    "originals": [
+      "io"
+    ]
+  },
+  {
+    "korean": "입출력선택",
+    "originals": [
+      "select"
+    ]
+  },
+  {
+    "korean": "입출력선택도구",
+    "originals": [
+      "selectors"
+    ]
+  },
+  {
+    "korean": "입출력오류",
+    "originals": [
+      "IOError",
+      "builtins.IOError"
+    ]
+  },
+  {
+    "korean": "입출력차단오류",
+    "originals": [
+      "BlockingIOError",
+      "builtins.BlockingIOError"
+    ]
+  },
+  {
+    "korean": "자기형",
+    "originals": [
+      "typing.Self"
+    ]
+  },
+  {
+    "korean": "자동값",
+    "originals": [
+      "enum.auto"
+    ]
+  },
+  {
+    "korean": "자료모음",
+    "originals": [
+      "collections"
+    ]
+  },
+  {
+    "korean": "자료열",
+    "originals": [
+      "pandas.Series"
+    ]
+  },
+  {
+    "korean": "자료클래스",
+    "originals": [
+      "dataclasses"
+    ]
+  },
+  {
+    "korean": "자료표",
+    "originals": [
+      "pandas.DataFrame"
+    ]
+  },
+  {
+    "korean": "자료형",
+    "originals": [
+      "builtins.type",
+      "numpy.ndarray.dtype",
+      "type"
+    ]
+  },
+  {
+    "korean": "자료형도구",
+    "originals": [
+      "typing"
+    ]
+  },
+  {
+    "korean": "자료형오류",
+    "originals": [
+      "TypeError",
+      "builtins.TypeError"
+    ]
+  },
+  {
+    "korean": "자료형정의",
+    "originals": [
+      "dataclasses.dataclass"
+    ]
+  },
+  {
+    "korean": "자료형확인",
+    "originals": [
+      "builtins.isinstance",
+      "isinstance"
+    ]
+  },
+  {
+    "korean": "자르기",
+    "originals": [
+      "_io._IOBase.truncate"
+    ]
+  },
+  {
+    "korean": "자식프로세스오류",
+    "originals": [
+      "ChildProcessError",
+      "builtins.ChildProcessError"
+    ]
+  },
+  {
+    "korean": "자연상수",
+    "originals": [
+      "math.e"
+    ]
+  },
+  {
+    "korean": "자원경고",
+    "originals": [
+      "ResourceWarning",
+      "builtins.ResourceWarning"
+    ]
+  },
+  {
+    "korean": "자원관리",
+    "originals": [
+      "resource"
+    ]
+  },
+  {
+    "korean": "작업만들기",
+    "originals": [
+      "asyncio.create_task"
+    ]
+  },
+  {
+    "korean": "작업묶음",
+    "originals": [
+      "asyncio.TaskGroup"
+    ]
+  },
+  {
+    "korean": "작업중단오류",
+    "originals": [
+      "InterruptedError",
+      "builtins.InterruptedError"
+    ]
+  },
+  {
+    "korean": "작은값들",
+    "originals": [
+      "heapq.nsmallest"
+    ]
+  },
+  {
+    "korean": "잠금",
+    "originals": [
+      "asyncio.Lock",
+      "threading.Lock"
+    ]
+  },
+  {
+    "korean": "잠시대기",
+    "originals": [
+      "asyncio.sleep",
+      "time.sleep"
+    ]
+  },
+  {
+    "korean": "장애처리",
+    "originals": [
+      "faulthandler"
+    ]
+  },
+  {
+    "korean": "재귀오류",
+    "originals": [
+      "RecursionError",
+      "builtins.RecursionError"
+    ]
+  },
+  {
+    "korean": "재귀패턴찾기",
+    "originals": [
+      "pathlib.Path.rglob"
+    ]
+  },
+  {
+    "korean": "저작권",
+    "originals": [
+      "builtins.copyright",
+      "copyright"
+    ]
+  },
+  {
+    "korean": "전역",
+    "originals": [
+      "global"
+    ]
+  },
+  {
+    "korean": "전역변수",
+    "originals": [
+      "builtins.globals",
+      "globals"
+    ]
+  },
+  {
+    "korean": "전자우편",
+    "originals": [
+      "email"
+    ]
+  },
+  {
+    "korean": "전체일치",
+    "originals": [
+      "re.Pattern.fullmatch",
+      "re.fullmatch"
+    ]
+  },
+  {
+    "korean": "전체초",
+    "originals": [
+      "datetime.timedelta.total_seconds"
+    ]
+  },
+  {
+    "korean": "전체컴파일",
+    "originals": [
+      "compileall"
+    ]
+  },
+  {
+    "korean": "전치",
+    "originals": [
+      "numpy.ndarray.T"
+    ]
+  },
+  {
+    "korean": "절대경로",
+    "originals": [
+      "os.path.abspath",
+      "pathlib.Path.resolve"
+    ]
+  },
+  {
+    "korean": "절대경로여부",
+    "originals": [
+      "pathlib.PurePath.is_absolute"
+    ]
+  },
+  {
+    "korean": "절대위치",
+    "originals": [
+      "pathlib.Path.absolute"
+    ]
+  },
+  {
+    "korean": "절댓값",
+    "originals": [
+      "abs",
+      "builtins.abs"
+    ]
+  },
+  {
+    "korean": "점모두",
+    "originals": [
+      "re.DOTALL"
+    ]
+  },
+  {
+    "korean": "접두사제거",
+    "originals": [
+      "builtins.str.removeprefix"
+    ]
+  },
+  {
+    "korean": "접미사제거",
+    "originals": [
+      "builtins.str.removesuffix"
+    ]
+  },
+  {
+    "korean": "정규분포",
+    "originals": [
+      "statistics.NormalDist"
+    ]
+  },
+  {
+    "korean": "정규식",
+    "originals": [
+      "re"
+    ]
+  },
+  {
+    "korean": "정규화",
+    "originals": [
+      "unicodedata.normalize"
+    ]
+  },
+  {
+    "korean": "정렬",
+    "originals": [
+      "builtins.list.sort",
+      "builtins.sorted",
+      "sorted"
+    ]
+  },
+  {
+    "korean": "정렬삽입",
+    "originals": [
+      "bisect.insort"
+    ]
+  },
+  {
+    "korean": "정밀합계",
+    "originals": [
+      "math.fsum"
+    ]
+  },
+  {
+    "korean": "정보",
+    "originals": [
+      "logging.info"
+    ]
+  },
+  {
+    "korean": "정보수준",
+    "originals": [
+      "logging.INFO"
+    ]
+  },
+  {
+    "korean": "정보포함복사",
+    "originals": [
+      "shutil.copy2"
+    ]
+  },
+  {
+    "korean": "정수",
+    "originals": [
+      "builtins.int",
+      "int"
+    ]
+  },
+  {
+    "korean": "정수64",
+    "originals": [
+      "numpy.int64"
+    ]
+  },
+  {
+    "korean": "정수난수",
+    "originals": [
+      "random.Random.randint",
+      "random.randint"
+    ]
+  },
+  {
+    "korean": "정수비",
+    "originals": [
+      "builtins.float.as_integer_ratio",
+      "builtins.int.as_integer_ratio"
+    ]
+  },
+  {
+    "korean": "정수여부",
+    "originals": [
+      "builtins.float.is_integer",
+      "builtins.int.is_integer"
+    ]
+  },
+  {
+    "korean": "정수열거형",
+    "originals": [
+      "enum.IntEnum"
+    ]
+  },
+  {
+    "korean": "정수제곱근",
+    "originals": [
+      "math.isqrt"
+    ]
+  },
+  {
+    "korean": "정적메서드",
+    "originals": [
+      "builtins.staticmethod",
+      "staticmethod"
+    ]
+  },
+  {
+    "korean": "제거",
+    "originals": [
+      "builtins.bytearray.remove",
+      "builtins.list.remove",
+      "builtins.set.remove",
+      "collections.deque.remove",
+      "pandas.core.frame.DataFrame.drop"
+    ]
+  },
+  {
+    "korean": "제곱근",
+    "originals": [
+      "math.sqrt"
+    ]
+  },
+  {
+    "korean": "제목형",
+    "originals": [
+      "builtins.str.title"
+    ]
+  },
+  {
+    "korean": "제목형여부",
+    "originals": [
+      "builtins.str.istitle"
+    ]
+  },
+  {
+    "korean": "제이슨",
+    "originals": [
+      "json"
+    ]
+  },
+  {
+    "korean": "제트압축",
+    "originals": [
+      "zlib"
+    ]
+  },
+  {
+    "korean": "제한대기",
+    "originals": [
+      "asyncio.wait_for"
+    ]
+  },
+  {
+    "korean": "조각",
+    "originals": [
+      "builtins.slice",
+      "slice"
+    ]
+  },
+  {
+    "korean": "조합",
+    "originals": [
+      "itertools.combinations"
+    ]
+  },
+  {
+    "korean": "조합수",
+    "originals": [
+      "math.comb"
+    ]
+  },
+  {
+    "korean": "조회오류",
+    "originals": [
+      "LookupError",
+      "builtins.LookupError"
+    ]
+  },
+  {
+    "korean": "존재",
+    "originals": [
+      "os.path.exists",
+      "pathlib.Path.exists"
+    ]
+  },
+  {
+    "korean": "종료",
+    "originals": [
+      "builtins.quit",
+      "quit",
+      "sys.exit"
+    ]
+  },
+  {
+    "korean": "종료스택",
+    "originals": [
+      "contextlib.ExitStack"
+    ]
+  },
+  {
+    "korean": "종료처리",
+    "originals": [
+      "atexit"
+    ]
+  },
+  {
+    "korean": "주석",
+    "originals": [
+      "__future__.annotations"
+    ]
+  },
+  {
+    "korean": "주석해석",
+    "originals": [
+      "annotationlib"
+    ]
+  },
+  {
+    "korean": "주소도구",
+    "originals": [
+      "urllib"
+    ]
+  },
+  {
+    "korean": "주소도구.오류",
+    "originals": [
+      "urllib.error"
+    ]
+  },
+  {
+    "korean": "주소도구.요청",
+    "originals": [
+      "urllib.request"
+    ]
+  },
+  {
+    "korean": "주소도구.해석",
+    "originals": [
+      "urllib.parse"
+    ]
+  },
+  {
+    "korean": "주소안전토큰",
+    "originals": [
+      "secrets.token_urlsafe"
+    ]
+  },
+  {
+    "korean": "주소열기",
+    "originals": [
+      "urllib.request.urlopen"
+    ]
+  },
+  {
+    "korean": "주소합치기",
+    "originals": [
+      "urllib.parse.urljoin"
+    ]
+  },
+  {
+    "korean": "주소해석",
+    "originals": [
+      "urllib.parse.urlparse"
+    ]
+  },
+  {
+    "korean": "줄나누기",
+    "originals": [
+      "builtins.str.splitlines",
+      "textwrap.wrap"
+    ]
+  },
+  {
+    "korean": "줄들쓰기",
+    "originals": [
+      "_io._IOBase.writelines"
+    ]
+  },
+  {
+    "korean": "줄들읽기",
+    "originals": [
+      "_io._IOBase.readlines"
+    ]
+  },
+  {
+    "korean": "줄맞춤",
+    "originals": [
+      "textwrap.fill"
+    ]
+  },
+  {
+    "korean": "줄이기",
+    "originals": [
+      "textwrap.shorten"
+    ]
+  },
+  {
+    "korean": "줄임표",
+    "originals": [
+      "Ellipsis",
+      "builtins.Ellipsis"
+    ]
+  },
+  {
+    "korean": "줄캐시",
+    "originals": [
+      "linecache"
+    ]
+  },
+  {
+    "korean": "중단",
+    "originals": [
+      "break"
+    ]
+  },
+  {
+    "korean": "중단점",
+    "originals": [
+      "breakpoint",
+      "builtins.breakpoint"
+    ]
+  },
+  {
+    "korean": "중앙값",
+    "originals": [
+      "statistics.median"
+    ]
+  },
+  {
+    "korean": "지금",
+    "originals": [
+      "datetime.datetime.now"
+    ]
+  },
+  {
+    "korean": "지수함수",
+    "originals": [
+      "math.exp"
+    ]
+  },
+  {
+    "korean": "지역변수",
+    "originals": [
+      "builtins.locals",
+      "locals"
+    ]
+  },
+  {
+    "korean": "지역설정",
+    "originals": [
+      "decimal.localcontext",
+      "locale"
+    ]
+  },
+  {
+    "korean": "지집압축",
+    "originals": [
+      "gzip"
+    ]
+  },
+  {
+    "korean": "직렬화",
+    "originals": [
+      "pickle.dumps"
+    ]
+  },
+  {
+    "korean": "직렬화조사",
+    "originals": [
+      "pickletools"
+    ]
+  },
+  {
+    "korean": "질의인코딩",
+    "originals": [
+      "urllib.parse.urlencode"
+    ]
+  },
+  {
+    "korean": "집파일",
+    "originals": [
+      "zipfile",
+      "zipfile.ZipFile"
+    ]
+  },
+  {
+    "korean": "집파일여부",
+    "originals": [
+      "zipfile.is_zipfile"
+    ]
+  },
+  {
+    "korean": "집합",
+    "originals": [
+      "builtins.set",
+      "set"
+    ]
+  },
+  {
+    "korean": "짝짓기",
+    "originals": [
+      "builtins.zip",
+      "zip"
+    ]
+  },
+  {
+    "korean": "차원수",
+    "originals": [
+      "builtins.memoryview.ndim",
+      "numpy.ndarray.ndim"
+    ]
+  },
+  {
+    "korean": "차이비교",
+    "originals": [
+      "difflib"
+    ]
+  },
+  {
+    "korean": "차집합",
+    "originals": [
+      "builtins.set.difference"
+    ]
+  },
+  {
+    "korean": "차집합갱신",
+    "originals": [
+      "builtins.set.difference_update"
+    ]
+  },
+  {
+    "korean": "참",
+    "originals": [
+      "True"
+    ]
+  },
+  {
+    "korean": "참조오류",
+    "originals": [
+      "ReferenceError",
+      "builtins.ReferenceError"
+    ]
+  },
+  {
+    "korean": "찾기",
+    "originals": [
+      "builtins.str.find"
+    ]
+  },
+  {
+    "korean": "찾기반복자",
+    "originals": [
+      "re.Pattern.finditer",
+      "re.finditer"
+    ]
+  },
+  {
+    "korean": "첫글자대문자",
+    "originals": [
+      "builtins.str.capitalize"
+    ]
+  },
+  {
+    "korean": "초",
+    "originals": [
+      "datetime.datetime.second"
+    ]
+  },
+  {
+    "korean": "초수",
+    "originals": [
+      "datetime.timedelta.seconds"
+    ]
+  },
+  {
+    "korean": "총개수",
+    "originals": [
+      "collections.Counter.total"
+    ]
+  },
+  {
+    "korean": "최근사용캐시",
+    "originals": [
+      "functools.lru_cache"
+    ]
+  },
+  {
+    "korean": "최대공약수",
+    "originals": [
+      "math.gcd"
+    ]
+  },
+  {
+    "korean": "최대길이",
+    "originals": [
+      "collections.deque.maxlen"
+    ]
+  },
+  {
+    "korean": "최댓값",
+    "originals": [
+      "builtins.max",
+      "max",
+      "numpy.ndarray.max"
+    ]
+  },
+  {
+    "korean": "최빈값",
+    "originals": [
+      "statistics.mode"
+    ]
+  },
+  {
+    "korean": "최빈값들",
+    "originals": [
+      "statistics.multimode"
+    ]
+  },
+  {
+    "korean": "최상위예외",
+    "originals": [
+      "BaseException",
+      "builtins.BaseException"
+    ]
+  },
+  {
+    "korean": "최상위예외묶음",
+    "originals": [
+      "BaseExceptionGroup",
+      "builtins.BaseExceptionGroup"
+    ]
+  },
+  {
+    "korean": "최소공배수",
+    "originals": [
+      "math.lcm"
+    ]
+  },
+  {
+    "korean": "최솟값",
+    "originals": [
+      "builtins.min",
+      "min",
+      "numpy.ndarray.min"
+    ]
+  },
+  {
+    "korean": "추가",
+    "originals": [
+      "builtins.bytearray.append",
+      "builtins.list.append",
+      "builtins.set.add",
+      "collections.deque.append"
+    ]
+  },
+  {
+    "korean": "추상기반",
+    "originals": [
+      "abc"
+    ]
+  },
+  {
+    "korean": "축약표현",
+    "originals": [
+      "reprlib"
+    ]
+  },
+  {
+    "korean": "출력",
+    "originals": [
+      "builtins.print",
+      "print"
+    ]
+  },
+  {
+    "korean": "출력가능여부",
+    "originals": [
+      "builtins.str.isprintable"
+    ]
+  },
+  {
+    "korean": "치명적",
+    "originals": [
+      "logging.critical"
+    ]
+  },
+  {
+    "korean": "치환",
+    "originals": [
+      "re.Pattern.sub",
+      "re.sub"
+    ]
+  },
+  {
+    "korean": "치환과개수",
+    "originals": [
+      "re.Pattern.subn",
+      "re.subn"
+    ]
+  },
+  {
+    "korean": "캐시",
+    "originals": [
+      "functools.cache"
+    ]
+  },
+  {
+    "korean": "캐시속성",
+    "originals": [
+      "functools.cached_property"
+    ]
+  },
+  {
+    "korean": "컴파일",
+    "originals": [
+      "builtins.compile",
+      "compile",
+      "re.compile"
+    ]
+  },
+  {
+    "korean": "켤레",
+    "originals": [
+      "builtins.complex.conjugate",
+      "builtins.float.conjugate",
+      "builtins.int.conjugate"
+    ]
+  },
+  {
+    "korean": "코드완성판정",
+    "originals": [
+      "codeop"
+    ]
+  },
+  {
+    "korean": "코드조사",
+    "originals": [
+      "inspect"
+    ]
+  },
+  {
+    "korean": "코사인",
+    "originals": [
+      "math.cos"
+    ]
+  },
+  {
+    "korean": "크기",
+    "originals": [
+      "numpy.ndarray.size"
+    ]
+  },
+  {
+    "korean": "큰값들",
+    "originals": [
+      "heapq.nlargest"
+    ]
+  },
+  {
+    "korean": "클래스",
+    "originals": [
+      "class"
+    ]
+  },
+  {
+    "korean": "클래스메서드",
+    "originals": [
+      "builtins.classmethod",
+      "classmethod"
+    ]
+  },
+  {
+    "korean": "클래스찾기",
+    "originals": [
+      "pyclbr"
+    ]
+  },
+  {
+    "korean": "키들",
+    "originals": [
+      "builtins.dict.keys"
+    ]
+  },
+  {
+    "korean": "키로만들기",
+    "originals": [
+      "builtins.dict.fromkeys"
+    ]
+  },
+  {
+    "korean": "키보드중단",
+    "originals": [
+      "KeyboardInterrupt",
+      "builtins.KeyboardInterrupt"
+    ]
+  },
+  {
+    "korean": "키오류",
+    "originals": [
+      "KeyError",
+      "builtins.KeyError"
+    ]
+  },
+  {
+    "korean": "타르파일",
+    "originals": [
+      "tarfile"
+    ]
+  },
+  {
+    "korean": "타르파일여부",
+    "originals": [
+      "tarfile.is_tarfile"
+    ]
+  },
+  {
+    "korean": "탄젠트",
+    "originals": [
+      "math.tan"
+    ]
+  },
+  {
+    "korean": "탭오류",
+    "originals": [
+      "TabError",
+      "builtins.TabError"
+    ]
+  },
+  {
+    "korean": "탭확장",
+    "originals": [
+      "builtins.str.expandtabs"
+    ]
+  },
+  {
+    "korean": "터미널모드",
+    "originals": [
+      "tty"
+    ]
+  },
+  {
+    "korean": "터미널여부",
+    "originals": [
+      "_io._IOBase.isatty"
+    ]
+  },
+  {
+    "korean": "터미널입출력",
+    "originals": [
+      "termios"
+    ]
+  },
+  {
+    "korean": "터미널화면",
+    "originals": [
+      "curses"
+    ]
+  },
+  {
+    "korean": "토큰",
+    "originals": [
+      "token"
+    ]
+  },
+  {
+    "korean": "토큰분석",
+    "originals": [
+      "tokenize"
+    ]
+  },
+  {
+    "korean": "톰엘",
+    "originals": [
+      "tomllib"
+    ]
+  },
+  {
+    "korean": "통계",
+    "originals": [
+      "statistics"
+    ]
+  },
+  {
+    "korean": "통과",
+    "originals": [
+      "pass"
+    ]
+  },
+  {
+    "korean": "튜플",
+    "originals": [
+      "builtins.tuple",
+      "tuple"
+    ]
+  },
+  {
+    "korean": "튜플로",
+    "originals": [
+      "dataclasses.astuple"
+    ]
+  },
+  {
+    "korean": "티케이화면",
+    "originals": [
+      "tkinter"
+    ]
+  },
+  {
+    "korean": "파이썬디버거",
+    "originals": [
+      "pdb"
+    ]
+  },
+  {
+    "korean": "파이썬문서",
+    "originals": [
+      "pydoc"
+    ]
+  },
+  {
+    "korean": "파이썬문서자료",
+    "originals": [
+      "pydoc_data"
+    ]
+  },
+  {
+    "korean": "파이썬버전",
+    "originals": [
+      "platform.python_version"
+    ]
+  },
+  {
+    "korean": "파이썬설정",
+    "originals": [
+      "sysconfig"
+    ]
+  },
+  {
+    "korean": "파이썬종료처리오류",
+    "originals": [
+      "PythonFinalizationError",
+      "builtins.PythonFinalizationError"
+    ]
+  },
+  {
+    "korean": "파이썬철학",
+    "originals": [
+      "this"
+    ]
+  },
+  {
+    "korean": "파이프",
+    "originals": [
+      "subprocess.PIPE"
+    ]
+  },
+  {
+    "korean": "파일경로",
+    "originals": [
+      "os.fspath"
+    ]
+  },
+  {
+    "korean": "파일명",
+    "originals": [
+      "os.path.basename"
+    ]
+  },
+  {
+    "korean": "파일명일치",
+    "originals": [
+      "fnmatch"
+    ]
+  },
+  {
+    "korean": "파일번호",
+    "originals": [
+      "_io._IOBase.fileno"
+    ]
+  },
+  {
+    "korean": "파일비교",
+    "originals": [
+      "filecmp"
+    ]
+  },
+  {
+    "korean": "파일삭제",
+    "originals": [
+      "os.remove",
+      "pathlib.Path.unlink"
+    ]
+  },
+  {
+    "korean": "파일상태",
+    "originals": [
+      "stat"
+    ]
+  },
+  {
+    "korean": "파일없음오류",
+    "originals": [
+      "FileNotFoundError",
+      "builtins.FileNotFoundError"
+    ]
+  },
+  {
+    "korean": "파일여부",
+    "originals": [
+      "os.path.isfile",
+      "pathlib.Path.is_file"
+    ]
+  },
+  {
+    "korean": "파일입력",
+    "originals": [
+      "fileinput"
+    ]
+  },
+  {
+    "korean": "파일작업",
+    "originals": [
+      "shutil"
+    ]
+  },
+  {
+    "korean": "파일전송",
+    "originals": [
+      "ftplib"
+    ]
+  },
+  {
+    "korean": "파일제어",
+    "originals": [
+      "fcntl"
+    ]
+  },
+  {
+    "korean": "파일존재오류",
+    "originals": [
+      "FileExistsError",
+      "builtins.FileExistsError"
+    ]
+  },
+  {
+    "korean": "파일컴파일",
+    "originals": [
+      "py_compile"
+    ]
+  },
+  {
+    "korean": "판다스",
+    "originals": [
+      "pandas"
+    ]
+  },
+  {
+    "korean": "팔진표현",
+    "originals": [
+      "builtins.oct",
+      "oct"
+    ]
+  },
+  {
+    "korean": "패키지도구",
+    "originals": [
+      "pkgutil"
+    ]
+  },
+  {
+    "korean": "패키지도구설치",
+    "originals": [
+      "ensurepip"
+    ]
+  },
+  {
+    "korean": "패턴",
+    "originals": [
+      "re.Pattern.pattern"
+    ]
+  },
+  {
+    "korean": "패턴찾기",
+    "originals": [
+      "pathlib.Path.glob"
+    ]
+  },
+  {
+    "korean": "패턴형",
+    "originals": [
+      "re.Pattern"
+    ]
+  },
+  {
+    "korean": "펼치기",
+    "originals": [
+      "numpy.ndarray.flatten"
+    ]
+  },
+  {
+    "korean": "평가",
+    "originals": [
+      "builtins.eval",
+      "eval"
+    ]
+  },
+  {
+    "korean": "평균",
+    "originals": [
+      "numpy.mean",
+      "numpy.ndarray.mean",
+      "pandas.core.frame.DataFrame.mean",
+      "pandas.core.series.Series.mean",
+      "statistics.mean"
+    ]
+  },
+  {
+    "korean": "포직스경로",
+    "originals": [
+      "pathlib.PosixPath"
+    ]
+  },
+  {
+    "korean": "포직스경로도구",
+    "originals": [
+      "posixpath"
+    ]
+  },
+  {
+    "korean": "포직스내부",
+    "originals": [
+      "posix"
+    ]
+  },
+  {
+    "korean": "포직스표현",
+    "originals": [
+      "pathlib.PurePath.as_posix"
+    ]
+  },
+  {
+    "korean": "표본",
+    "originals": [
+      "random.Random.sample",
+      "random.sample"
+    ]
+  },
+  {
+    "korean": "표본분산",
+    "originals": [
+      "statistics.variance"
+    ]
+  },
+  {
+    "korean": "표본표준편차",
+    "originals": [
+      "statistics.stdev"
+    ]
+  },
+  {
+    "korean": "표준오류",
+    "originals": [
+      "sys.stderr"
+    ]
+  },
+  {
+    "korean": "표준요일",
+    "originals": [
+      "datetime.date.isoweekday"
+    ]
+  },
+  {
+    "korean": "표준입력",
+    "originals": [
+      "sys.stdin"
+    ]
+  },
+  {
+    "korean": "표준출력",
+    "originals": [
+      "sys.stdout"
+    ]
+  },
+  {
+    "korean": "표준출력전환",
+    "originals": [
+      "contextlib.redirect_stdout"
+    ]
+  },
+  {
+    "korean": "표준편차",
+    "originals": [
+      "numpy.ndarray.std",
+      "numpy.std"
+    ]
+  },
+  {
+    "korean": "표준형식",
+    "originals": [
+      "datetime.date.isoformat"
+    ]
+  },
+  {
+    "korean": "표준형식에서",
+    "originals": [
+      "datetime.date.fromisoformat"
+    ]
+  },
+  {
+    "korean": "표현",
+    "originals": [
+      "builtins.repr",
+      "repr"
+    ]
+  },
+  {
+    "korean": "프로세스실패오류",
+    "originals": [
+      "subprocess.CalledProcessError"
+    ]
+  },
+  {
+    "korean": "프로세스열기",
+    "originals": [
+      "subprocess.Popen"
+    ]
+  },
+  {
+    "korean": "프로세스조회오류",
+    "originals": [
+      "ProcessLookupError",
+      "builtins.ProcessLookupError"
+    ]
+  },
+  {
+    "korean": "프로세스풀",
+    "originals": [
+      "concurrent.futures.ProcessPoolExecutor"
+    ]
+  },
+  {
+    "korean": "플래그",
+    "originals": [
+      "re.Pattern.flags"
+    ]
+  },
+  {
+    "korean": "플래그형",
+    "originals": [
+      "enum.Flag"
+    ]
+  },
+  {
+    "korean": "플랫폼",
+    "originals": [
+      "sys.platform"
+    ]
+  },
+  {
+    "korean": "필드",
+    "originals": [
+      "dataclasses.field"
+    ]
+  },
+  {
+    "korean": "필드들",
+    "originals": [
+      "dataclasses.fields"
+    ]
+  },
+  {
+    "korean": "하나라도",
+    "originals": [
+      "any",
+      "builtins.any"
+    ]
+  },
+  {
+    "korean": "하위클래스확인",
+    "originals": [
+      "builtins.issubclass",
+      "issubclass"
+    ]
+  },
+  {
+    "korean": "하위프로세스",
+    "originals": [
+      "subprocess"
+    ]
+  },
+  {
+    "korean": "하이퍼문서",
+    "originals": [
+      "html"
+    ]
+  },
+  {
+    "korean": "한바퀴",
+    "originals": [
+      "math.tau"
+    ]
+  },
+  {
+    "korean": "한줄읽기",
+    "originals": [
+      "_io._IOBase.readline"
+    ]
+  },
+  {
+    "korean": "함께",
+    "originals": [
+      "with"
+    ]
+  },
+  {
+    "korean": "함수",
+    "originals": [
+      "def"
+    ]
+  },
+  {
+    "korean": "함수도구",
+    "originals": [
+      "functools"
+    ]
+  },
+  {
+    "korean": "함수여부",
+    "originals": [
+      "inspect.isfunction"
+    ]
+  },
+  {
+    "korean": "합계",
+    "originals": [
+      "builtins.sum",
+      "numpy.ndarray.sum",
+      "numpy.sum",
+      "pandas.core.frame.DataFrame.sum",
+      "pandas.core.series.Series.sum",
+      "sum"
+    ]
+  },
+  {
+    "korean": "합집합",
+    "originals": [
+      "builtins.set.union"
+    ]
+  },
+  {
+    "korean": "합치기",
+    "originals": [
+      "os.path.join"
+    ]
+  },
+  {
+    "korean": "합형",
+    "originals": [
+      "typing.Union"
+    ]
+  },
+  {
+    "korean": "항목꺼내기",
+    "originals": [
+      "builtins.dict.popitem"
+    ]
+  },
+  {
+    "korean": "항목들",
+    "originals": [
+      "builtins.dict.items"
+    ]
+  },
+  {
+    "korean": "항목얻기도구",
+    "originals": [
+      "operator.itemgetter"
+    ]
+  },
+  {
+    "korean": "항목크기",
+    "originals": [
+      "builtins.memoryview.itemsize"
+    ]
+  },
+  {
+    "korean": "해독",
+    "originals": [
+      "builtins.bytes.decode",
+      "json.loads",
+      "tomllib.loads",
+      "urllib.parse.unquote"
+    ]
+  },
+  {
+    "korean": "해독오류",
+    "originals": [
+      "json.JSONDecodeError",
+      "tomllib.TOMLDecodeError"
+    ]
+  },
+  {
+    "korean": "해시",
+    "originals": [
+      "builtins.hash",
+      "hash"
+    ]
+  },
+  {
+    "korean": "해시도구",
+    "originals": [
+      "hashlib"
+    ]
+  },
+  {
+    "korean": "해제",
+    "originals": [
+      "builtins.memoryview.release"
+    ]
+  },
+  {
+    "korean": "행",
+    "originals": [
+      "sqlite3.Row"
+    ]
+  },
+  {
+    "korean": "허수부",
+    "originals": [
+      "builtins.complex.imag",
+      "builtins.float.imag",
+      "builtins.int.imag"
+    ]
+  },
+  {
+    "korean": "현재경로",
+    "originals": [
+      "os.getcwd",
+      "pathlib.Path.cwd"
+    ]
+  },
+  {
+    "korean": "현재스레드",
+    "originals": [
+      "threading.current_thread"
+    ]
+  },
+  {
+    "korean": "현재시각",
+    "originals": [
+      "time.time"
+    ]
+  },
+  {
+    "korean": "현재위치",
+    "originals": [
+      "_io._IOBase.tell"
+    ]
+  },
+  {
+    "korean": "현지시각",
+    "originals": [
+      "time.localtime"
+    ]
+  },
+  {
+    "korean": "협정세계시",
+    "originals": [
+      "datetime.UTC"
+    ]
+  },
+  {
+    "korean": "형도구",
+    "originals": [
+      "types"
+    ]
+  },
+  {
+    "korean": "형변수",
+    "originals": [
+      "typing.TypeVar"
+    ]
+  },
+  {
+    "korean": "형변환",
+    "originals": [
+      "builtins.memoryview.cast",
+      "numpy.ndarray.astype"
+    ]
+  },
+  {
+    "korean": "형별칭",
+    "originals": [
+      "type"
+    ]
+  },
+  {
+    "korean": "형주장",
+    "originals": [
+      "typing.cast"
+    ]
+  },
+  {
+    "korean": "형지정사전",
+    "originals": [
+      "typing.TypedDict"
+    ]
+  },
+  {
+    "korean": "호스트명",
+    "originals": [
+      "socket.gethostname"
+    ]
+  },
+  {
+    "korean": "호출가능",
+    "originals": [
+      "builtins.callable",
+      "callable"
+    ]
+  },
+  {
+    "korean": "호출형",
+    "originals": [
+      "typing.Callable"
+    ]
+  },
+  {
+    "korean": "홈경로",
+    "originals": [
+      "pathlib.Path.home"
+    ]
+  },
+  {
+    "korean": "확장",
+    "originals": [
+      "builtins.bytearray.extend",
+      "builtins.list.extend",
+      "collections.deque.extend"
+    ]
+  },
+  {
+    "korean": "확장자",
+    "originals": [
+      "pathlib.PurePath.suffix"
+    ]
+  },
+  {
+    "korean": "확장자들",
+    "originals": [
+      "pathlib.PurePath.suffixes"
+    ]
+  },
+  {
+    "korean": "확장자바꾸기",
+    "originals": [
+      "pathlib.PurePath.with_suffix"
+    ]
+  },
+  {
+    "korean": "확장자분리",
+    "originals": [
+      "os.path.splitext"
+    ]
+  },
+  {
+    "korean": "확장자없는이름",
+    "originals": [
+      "pathlib.PurePath.stem"
+    ]
+  },
+  {
+    "korean": "환경변수",
+    "originals": [
+      "os.environ"
+    ]
+  },
+  {
+    "korean": "환경얻기",
+    "originals": [
+      "os.getenv"
+    ]
+  },
+  {
+    "korean": "환경오류",
+    "originals": [
+      "EnvironmentError",
+      "builtins.EnvironmentError"
+    ]
+  },
+  {
+    "korean": "회전",
+    "originals": [
+      "collections.deque.rotate"
+    ]
+  },
+  {
+    "korean": "흐름형",
+    "originals": [
+      "socket.SOCK_STREAM"
+    ]
+  },
+  {
+    "korean": "힙도구",
+    "originals": [
+      "heapq"
+    ]
+  },
+  {
+    "korean": "힙만들기",
+    "originals": [
+      "heapq.heapify"
+    ]
+  }
+]

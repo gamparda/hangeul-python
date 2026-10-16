@@ -1,0 +1,17 @@
+{
+  "scopeName": "source.hangeul-python",
+  "patterns": [
+    {"name": "comment.line.number-sign.hangeul", "match": "#.*$"},
+    {"name": "string.quoted.triple.double.hangeul", "begin": "\"\"\"", "end": "\"\"\""},
+    {"name": "string.quoted.triple.single.hangeul", "begin": "'''", "end": "'''"},
+    {"name": "string.quoted.double.hangeul", "begin": "\"", "end": "\"", "patterns": [
+      {"name": "constant.character.escape.hangeul", "match": "\\\\."}
+    ]},
+    {"name": "string.quoted.single.hangeul", "begin": "'", "end": "'", "patterns": [
+      {"name": "constant.character.escape.hangeul", "match": "\\\\."}
+    ]},
+    {"name": "constant.language.hangeul", "match": "(?<![\\p{L}\\p{N}_])(참|거짓|없음)(?![\\p{L}\\p{N}_])"},
+    {"name": "keyword.control.hangeul", "match": "(?<![\\p{L}\\p{N}_])(만약|아니고만약|아니면|반복|동안|안에|함수|반환|클래스|익명함수|그리고|또는|아님|동일|통과|중단|계속|불러오기|에서|별칭|전역|비지역|삭제|시도|예외|마지막|발생|단언|함께|비동기|대기|산출|맞춤|경우|형별칭)(?![\\p{L}\\p{N}_])"},
+    {"include": "source.python"}
+  ]
+}
